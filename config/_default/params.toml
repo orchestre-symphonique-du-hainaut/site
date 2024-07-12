@@ -18,8 +18,8 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 
-# defaultBackgroundImage = "IMAGE.jpg" # used as default for background images 
-# defaultFeaturedImage = "IMAGE.jpg" # used as default for featured images in all articles
+defaultBackgroundImage = "img/orchestre.jpg" # used as default for background images 
+# defaultFeaturedImage = "orchestre.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
 # smartTOC = true
@@ -37,7 +37,7 @@ disableTextInHeader = false
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
+  # homepageImage = "orchestre.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = true
@@ -54,11 +54,11 @@ disableTextInHeader = false
   showDateUpdated = false
   showAuthor = false
   # showAuthorBottom = false
-  showHero = false
-  # heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
-  showBreadcrumbs = false
+  showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"

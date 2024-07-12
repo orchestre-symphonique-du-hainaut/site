@@ -1,7 +1,9 @@
 +++
 title = 'Contact'
 date = 2024-07-12T12:21:44+02:00
-draft = false
+draft = true
+
+showDate = false
 +++
 
 ### Pour nous écrire :
