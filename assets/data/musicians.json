@@ -1,0 +1,19 @@
+{
+  "musicians":[
+   {
+      "name":"Jeff Atwood",
+      "instrument":"Violon",
+      "lien":"https://blog.codinghorror.com/"
+   },
+   {
+      "name":"Shawn Wang",
+      "lien":"https://www.swyx.io/",
+      "instrument":"Triangle"
+   },
+   {
+      "name":"Sara Soueidan",
+      "lien":"https://www.sarasoueidan.com/",
+      "instrument":"Trombone"
+   }
+ ]
+}

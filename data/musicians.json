@@ -1,0 +1,19 @@
+{
+  "musicians":[
+   {
+      "name":"Jeff Atwood",
+      "instrument":"Violon",
+      "lien":"https://blog.codinghorror.com/"
+   },
+   {
+      "name":"Shawn Wang",
+      "lien":"https://www.swyx.io/",
+      "desc":"Writer, Speaker, Developer Advocate. He help developers to Learn in Public!"
+   },
+   {
+      "name":"Sara Soueidan",
+      "lien":"https://www.sarasoueidan.com/",
+      "desc":"Sara is an independent inclusive design engineer, author, speaker, and trainer based in Lebanon."
+   }
+ ]
+}

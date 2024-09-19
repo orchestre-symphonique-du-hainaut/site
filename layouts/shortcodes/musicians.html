@@ -1,0 +1,8 @@
+{{ $path := "data/musicians.json" }}
+{{ with resources.Get $path }}
+  {{ with . | transform.Unmarshal }}
+    {{ partial "musicians/cardview.html" . }}
+  {{ end }}
+{{ else }}
+  {{ errorf "Unable to get global resource %q" $path }}
+{{ end }}

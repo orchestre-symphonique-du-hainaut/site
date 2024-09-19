@@ -6,7 +6,8 @@
 # https://blowfish.page/docs/configuration/#theme-parameters
 
 colorScheme = "fire"
-defaultAppearance = "light" # valid options: light or dark
+# blowfish (default), avocado, fire, ocean, forest, princess, neon, bloody, terminal, marvel, noir, autumn, congo, andslate
+defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
@@ -18,8 +19,8 @@ enableCodeCopy = false
 disableImageOptimization = false
 disableTextInHeader = false
 
-defaultBackgroundImage = "img/orchestre.jpg" # used as default for background images 
-# defaultFeaturedImage = "orchestre.jpg" # used as default for featured images in all articles
+defaultBackgroundImage = "img/osh_orchestre.jpg" # used as default for background images 
+defaultFeaturedImage = "img/osh_orchestre.jpg" # used as default for featured images in all articles
 
 # highlightCurrentMenuArea = true
 # smartTOC = true
@@ -36,15 +37,15 @@ defaultBackgroundImage = "img/orchestre.jpg" # used as default for background im
   showScrollToTop = true
 
 [homepage]
-  layout = "background" # valid options: page, profile, hero, card, background, custom
-  # homepageImage = "orchestre.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
+  layout = "custom" # valid options: page, profile, hero, card, background, custom
+  homepageImage = "img/portrait.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 5
   showMoreLink = true
   showMoreLinkDest = "/posts"
   cardView = true
-  cardViewScreenWidth = false
-  layoutBackgroundBlur = true # only used when layout equals background
+  # cardViewScreenWidth = true
+  # layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
   showDate = true
@@ -55,14 +56,14 @@ defaultBackgroundImage = "img/orchestre.jpg" # used as default for background im
   showAuthor = false
   # showAuthorBottom = false
   showHero = true
-  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  heroStyle = "thumbAndBackground" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
   layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
   showBreadcrumbs = true
   showDraftLabel = true
   showEdit = false
   # editURL = "https://github.com/username/repo/"
-  editAppendPath = true
+  editAppendPath = false
   seriesOpened = false
   showHeadingAnchors = true
   showPagination = true
@@ -78,19 +79,19 @@ defaultBackgroundImage = "img/orchestre.jpg" # used as default for background im
   showZenMode = false
 
 [list]
-  showHero = false
-  # heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
+  showHero = true
+  heroStyle = "background" # valid options: basic, big, background, thumbAndBackground
   layoutBackgroundBlur = true # only used when heroStyle equals background or thumbAndBackground
-  layoutBackgroundHeaderSpace = true # only used when heroStyle equals background
+  layoutBackgroundHeaderSpace = false # only used when heroStyle equals background
   showBreadcrumbs = false
-  showSummary = false
+  showSummary = true
   showViews = false
   showLikes = false
   showTableOfContents = false
-  showCards = false
+  showCards = true
   orderByWeight = false
   groupByYear = true
-  cardView = false
+  cardView = true
   cardViewScreenWidth = false
   constrainItemsWidth = false
 

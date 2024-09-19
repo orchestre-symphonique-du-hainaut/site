@@ -28,8 +28,7 @@
 [[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 30
-
+  weight = 25
 
 #[[main]]
 #  name = "example sub-menu 2"
