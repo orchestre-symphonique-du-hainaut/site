@@ -1,7 +1,7 @@
 languageCode = "fr"
 languageName = "Français"
 weight = 1
-title = "Accord Parfait"
+title = "Orchestre Symphonique du Hainaut"
 
 [params]
   displayName = "FR"
@@ -14,7 +14,7 @@ title = "Accord Parfait"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-  name = "Accord Parfait"
+  name = "OSH"
   image = "img/osh_logo.png"
   headline = "Orchestre Symphonique du Hainaut"
   bio = "A little bit about you"

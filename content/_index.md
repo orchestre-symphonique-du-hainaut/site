@@ -1,4 +1,4 @@
 +++
-title = "Bienvenue sur le site de l'orchestre symphonique du Hainaut !"
+title = "Bienvenue sur le site de l'Orchestre Symphonique du Hainaut !"
 description = "Yes"
 +++
