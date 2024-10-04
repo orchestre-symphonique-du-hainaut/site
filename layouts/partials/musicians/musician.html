@@ -5,36 +5,44 @@
 {{- $link := .link }}
 {{- $defaultImage := "/img/osh_logo.png" }}
 
-<div class="flex border border-neutral-200 dark:border-neutral-700 border-2 rounded">
-  <div class="place-self-center">
-  {{ with $defaultImage }}
-    {{ $authorImage := "" }}
-    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
-      {{ $authorImage = resources.GetRemote . }}
-    {{ else }}
-      {{ $authorImage = resources.Get . }}
-    {{ end }}
-    {{ if $authorImage }}
-      {{ if not $disableImageOptimization }}
-        {{ $authorImage = $authorImage.Fill "192x192" }}
+<div class="flex border border-neutral-200 dark:border-neutral-700 border-2 rounded px-6 py-4">
+  <div class="flex author">
+    {{ with $defaultImage }}
+      {{ $image := "" }}
+      {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $image = resources.GetRemote . }}
+      {{ else }}
+        {{ $image = resources.Get . }}
       {{ end }}
-      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="{{ $.Site.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" />
-    {{ else }}
-      {{ $authorImage := resources.GetRemote . }}
-      {{ if not $disableImageOptimization }}
-        {{ $authorImage = $authorImage.Fill "192x192" }}
+      {{ if $image }}
+        {{ if not $disableImageOptimization }}
+          {{ $image = $image.Fill "192x192" }}
+        {{ end }}
+        <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+        alt="{{ $name | default "Musicien" }}" src="{{ $image.RelPermalink }}" />
+      {{ else }}
+        {{ $image := resources.GetRemote . }}
+        {{ if not $disableImageOptimization }}
+          {{ $image = $image.Fill "192x192" }}
+        {{ end }}
+        <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+        alt="{{ $name | default "Musicien" }}" src="{{ $image.RelPermalink }}" />
       {{ end }}
-      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
-      alt="{{ $.Site.Author.name | default " Author" }}" src="{{ $authorImage.RelPermalink }}" />
     {{ end }}
-  {{ end }}
-    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
-      {{ $name | markdownify }}
+    <div class="place-self-center">
+      {{ with $desc | markdownify }}
+      <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">{{ . }}</div>
+      {{ end }}
+      <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+        {{ $name | markdownify }}
+      </div>
+      
+      {{ with $instrument | markdownify }}
+      <div class="text-sm text-neutral-700 dark:text-neutral-400">
+        {{ . }}
+      </div>
+      {{ end }}
+      <div class="text-2xl sm:text-lg">{{ partialCached "author-links.html" . }}</div>
     </div>
-    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
-      {{ $instrument | markdownify }}
-    </div>
-    <div class="text-sm text-neutral-700 dark:text-neutral-400">{{ $desc | markdownify }}</div>
   </div>
 </div>

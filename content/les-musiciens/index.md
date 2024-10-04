@@ -26,7 +26,7 @@ qui ravit le public !
 L’Orchestre Symphonique du Hainaut est en résidence
 à Saint-Saulve.
 
-## **Direction**
+## **La Direction**
 > *Emmanuel Puigdemont*
 
 {{< figure
@@ -74,3 +74,30 @@ Nationale, l’Orchestre Valentiana ...
 Il crée en 2009 l’**Orchestre Symphonique du Hainaut** qu’il dirige depuis sa création et avec
 lequel il fera plus de 50 concerts.
 
+## Les musiciens
+
+{{< lorem >}}
+
+{{< full-width >}}
+
+
+  {{< timeline >}}
+
+    {{< timelineItem icon="github" header="Cordes" subheader="Sous-titre" >}}
+      {{< musicians >}}
+    {{< /timelineItem >}}
+
+
+    {{< timelineItem icon="code" header="Bois" >}}
+      {{< musicians >}}
+    {{< /timelineItem >}}
+
+    {{< timelineItem icon="star" header="Cuivres" >}}
+      {{< musicians >}}
+    {{< /timelineItem >}}
+
+
+  {{< /timeline >}}
+
+
+{{< /full-width >}}
