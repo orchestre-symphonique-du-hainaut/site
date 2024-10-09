@@ -30,9 +30,8 @@ L’Orchestre Symphonique du Hainaut est en résidence
 > *Emmanuel Puigdemont*
 
 {{< figure
-    src="img/emmanuel.jpg"
-    alt="Abstract purple artwork"
-    caption="Photo par [Jean Marc Deltombe Photography](https://www.google.com/url?sa=t&source=web&rct=j&opi=89978449&url=https://www.facebook.com/jmdeltombephotography/&ved=2ahUKEwiBlJS8ws-IAxXrTKQEHd8lEWYQFnoECBgQAQ&usg=AOvVaw3IarkgicqwiihQoxPTHDFd)"
+    src="emmanuel.jpg"
+    alt="Emmanuel Puigdemont"
     >}}
 
 Emmanuel Puigdemont commence l’apprentissage de la
@@ -60,44 +59,71 @@ au sein de différentes formations orchestrales: orchestre de Chambre de Haute N
 orchestre de chambre Paul Kuentz, orchestre de chambre de Genève. Il collabora avec de
 grands noms: Maurice André, Jean Pierre Rampal, Narcisso Yepes, Augustin Dumay,
 Victoria de los Angeles, et bien d’autres encore.  
-
-Un tournant dans sa carrière se produit en 1995: il intègre comme violoncelle solo le
-Sextuor à Cordes de l’Artois Nord Pas de Calais, formation soutenue par la DRAC ; il
-enrichira ainsi son répertoire de musique de chambre.
-C’est ainsi qu’il parcourra une partie du monde: Japon, Argentine, Espagne,Allemagne et
-même l’Ouzbekistan et le Kazakhstan.
-
-Tout au long de sa carrière professionnelle il aura également une activité de concertiste,
-invité en tant que soliste par l’orchestre de la Suisse Romande, L’orchestre de la Police
-Nationale, l’Orchestre Valentiana ...
-
-Il crée en 2009 l’**Orchestre Symphonique du Hainaut** qu’il dirige depuis sa création et avec
-lequel il fera plus de 50 concerts.
-
 ## Les musiciens
 
 {{< lorem >}}
 
-{{< full-width >}}
 
 
   {{< timeline >}}
 
-    {{< timelineItem icon="github" header="Cordes" subheader="Sous-titre" >}}
-      {{< musicians >}}
+    {{< timelineItem icon="github" header="Violon" >}}
+      {{< figure
+          src="1er.jpg"
+          alt="Premier violons"
+       >}}
+      {{< figure
+          src="2nd.jpg"
+          alt="Second violons"
+       >}}
     {{< /timelineItem >}}
 
 
-    {{< timelineItem icon="code" header="Bois" >}}
-      {{< musicians >}}
+    {{< timelineItem icon="code" header="Alto" >}}
+      {{< figure
+          src="altos2.jpg"
+          alt="Altos"
+       >}}
     {{< /timelineItem >}}
 
-    {{< timelineItem icon="star" header="Cuivres" >}}
-      {{< musicians >}}
+    {{< timelineItem icon="star" header="Violoncelle" >}}
+      {{< figure
+          src="violoncelles.jpg"
+          alt="Violoncelle"
+       >}}
     {{< /timelineItem >}}
 
+    {{< timelineItem icon="star" header="Contrebasse" >}}
+      {{< figure
+          src="Contrebasse.jpg"
+          alt="Contrebasse"
+       >}}
+    {{< /timelineItem >}}
+    {{< timelineItem icon="star" header="Flute" >}}
+      {{< figure
+          src="flutes.jpg"
+          alt="Flute"
+       >}}
+    {{< /timelineItem >}}
+    {{< timelineItem icon="star" header="Clarinette" >}}
+      {{< figure
+          src="clarinettes.jpg"
+          alt="Clarinette"
+       >}}
+    {{< /timelineItem >}}
+    {{< timelineItem icon="star" header="Cor" >}}
+      {{< figure
+          src="cors.jpg"
+          alt="Cor"
+       >}}
+    {{< /timelineItem >}}
+    {{< timelineItem icon="star" header="Trombone" >}}
+      {{< figure
+          src="trombones.jpg"
+          alt="Trombone"
+       >}}
+    {{< /timelineItem >}}
 
   {{< /timeline >}}
 
 
-{{< /full-width >}}

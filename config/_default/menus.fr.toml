@@ -26,9 +26,19 @@
   weight = 20
 
 [[main]]
+  name = "Programme"
+  pageRef = "programme"
+  weight = 25
+[[main]]
+  name = "Carmen"
+  parent = "Programme"
+  pageRef = "carmen"
+  weight = 20
+
+[[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 25
+  weight = 30
 
 #[[main]]
 #  name = "example sub-menu 2"
