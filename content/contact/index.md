@@ -12,7 +12,8 @@ __*Orchestre Symphonique du Hainaut*__
 1 rue Paul Vaillant Couturier  
 59880 Saint-Saulve
 {{</ lead >}}
-{{< alert icon="phone" >}}**06 67 71 98 77**{{< /alert >}}  
+
+{{< alert icon="phone" >}}**06 72 71 92 70**{{< /alert >}}  
 {{< button href="mailto://OSHAccordparfait@outlook.fr">}}
 {{< icon "email" >}} OSHAccordparfait@outlook.fr
 {{< /button >}}

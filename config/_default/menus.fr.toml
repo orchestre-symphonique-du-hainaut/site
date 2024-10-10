@@ -16,29 +16,39 @@
 
 [[main]]
   name = "L'orchestre"
-#  parent = "Presentation"
   pageRef = "les-musiciens"
   weight = 10
 
 [[main]]
-  name = "Évènements"
+  name = "Concerts"
   pageRef = "posts"
   weight = 20
 
 [[main]]
-  name = "Programme"
-  pageRef = "programme"
-  weight = 25
+  name = "Répertoire"
+  pageRef = "repertoire"
+  weight = 30
+
 [[main]]
-  name = "Carmen"
-  parent = "Programme"
-  pageRef = "carmen"
-  weight = 20
+  name = "Historique"
+  parent = "Concerts"
+  pageRef = "historique"
+  weight = 40
+
+[[main]]
+  name = "Livre d'or"
+  pageRef = "livre-d-or"
+  weight = 50
+
+[[main]]
+  name = "Partenaires"
+  pageRef = "partenaire"
+  weight = 60
 
 [[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 30
+  weight = 70
 
 #[[main]]
 #  name = "example sub-menu 2"
