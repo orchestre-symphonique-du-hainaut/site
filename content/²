@@ -27,10 +27,6 @@ L’Orchestre Symphonique du Hainaut est en résidence
 à Saint-Saulve.
 
 ## **La Direction**
-> Eric Lannoy
-Directeur
-"<Insérer le cv>"
-
 > *Emmanuel Puigdemont*
 
 {{< figure
@@ -62,19 +58,20 @@ Un chapitre que je souhaite long !
 
 Emmanuel Puigdemont 
 
+> Eric Lannoy
+
+"<Insérer le cv.>"
 
 ## Les musiciens
 
 
 {{< timeline >}}
 
-  {{< timelineItem icon="github" header="1er Violons" >}}
+  {{< timelineItem icon="github" header="Violon" >}}
     {{< figure
         src="1er.jpg"
         alt="Premier violons"
      >}}
-  {{< /timelineItem >}}
-  {{< timelineItem icon="github" header="2nd Violons" >}}
     {{< figure
         src="2nd.jpg"
         alt="Second violons"
@@ -82,7 +79,7 @@ Emmanuel Puigdemont
   {{< /timelineItem >}}
 
 
-  {{< timelineItem icon="code" header="Altos" >}}
+  {{< timelineItem icon="code" header="Alto" >}}
     {{< figure
         src="altos2.jpg"
         alt="Altos"
@@ -108,7 +105,6 @@ Emmanuel Puigdemont
         alt="Flute"
      >}}
   {{< /timelineItem >}}
-
   {{< timelineItem icon="star" header="Clarinette" >}}
     {{< figure
         src="clarinettes.jpg"

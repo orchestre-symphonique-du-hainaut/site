@@ -1,7 +1,7 @@
 languageCode = "fr"
 languageName = "Français"
 weight = 1
-title = "Orchestre Symphonique du Hainaut"
+title = "Orchestre Symphonique du Hainaut"
 
 [params]
   displayName = "FR"
@@ -14,12 +14,12 @@ title = "Orchestre Symphonique du Hainaut"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]
-  name = "OSH"
+  name =  "Orchestre Symphonique du Hainaut"
   image = "img/osh_logo.png"
-  headline = "Orchestre Symphonique du Hainaut"
+  # headline =
   bio = "A little bit about you"
   links = [
-    { email = "mailto:OSHAccordparfait@outlook.fr" },
+    { email = "mailto:orchestre-symphonique-du-hainaut@outlook.fr" },
     { instagram = "https://www.instagram.com/osh_officiel/" },
 #     { link = "https://link-to-some-website.com/" },
 #     { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },

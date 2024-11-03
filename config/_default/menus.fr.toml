@@ -21,7 +21,7 @@
 
 [[main]]
   name = "Concerts"
-  pageRef = "posts"
+  pageRef = "concerts"
   weight = 20
 
 [[main]]
@@ -31,24 +31,29 @@
 
 [[main]]
   name = "Historique"
-  parent = "Concerts"
-  pageRef = "historique"
+  # parent = "Concerts"
+  pageRef = "concerts/historique"
   weight = 40
 
 [[main]]
-  name = "Livre d'or"
-  pageRef = "livre-d-or"
+  name = "Galerie"
+  pageRef = "galerie"
   weight = 50
 
 [[main]]
-  name = "Partenaires"
-  pageRef = "partenaire"
+  name = "Livre d'or"
+  pageRef = "livre-d-or"
   weight = 60
+
+[[main]]
+  name = "Partenaires"
+  pageRef = "partenaires"
+  weight = 70
 
 [[main]]
   name = "Contact"
   pageRef = "contact"
-  weight = 70
+  weight = 80
 
 #[[main]]
 #  name = "example sub-menu 2"
