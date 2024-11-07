@@ -7,30 +7,23 @@ showDate = false
 
 ## *Programme symphonique*
 
-*Beethoven*
-  - Symphonie N°5
+**Beethoven**, *Symphonie N°5*
 
-*Bizet*
-  - « Carmen raconté »
-  - Les Suites de L’Arlesienne
+**Bizet**
+  - *« Carmen raconté »*
+  - *Les Suites de L’Arlesienne*
 
-**Debussy**
-  - Petite Suite
+**Debussy**, *Petite Suite*
 
-**Dvorak**
-  - Symphonie N°9 dite du « Nouveau Monde »
+**Dvorak**, *Symphonie N°9 dite du « Nouveau Monde »*
 
-***Fauré***
-  - Pavane
+***Fauré***, *Pavane*
 
-***Gounod***
-  - Le Ballet de *Faust*
+***Gounod***, *Le Ballet de Faust*
 
-***Grieg*** :
-  - Suite de *Peer Gynt*
+***Grieg***, *Suite de Peer Gynt*
 
-***Listz*** :
-  - Les Préludes
+***Listz***, *Les Préludes*
 
 ***Mendelssohn***, *Ouverture des Hebrides*
 
@@ -83,5 +76,6 @@ showDate = false
 
 150 musiciennes et musiciens
 
-Mozart : *REQUIEM*
-Charpentier: *TE DEUM*
+Mozart, [*REQUIEM*]({{< ref "/tags/requiem" >}})
+
+Charpentier, *TE DEUM*

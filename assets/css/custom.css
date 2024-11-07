@@ -1,3 +1,7 @@
 html {
     font-size: 1.2em;
 }
+
+#the-top {
+  height: 0;
+}

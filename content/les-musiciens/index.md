@@ -27,11 +27,14 @@ L’Orchestre Symphonique du Hainaut est en résidence
 à Saint-Saulve.
 
 ## **La Direction**
-> Eric Lannoy
-Directeur
+### *Eric Lannoy*
+{{< lead >}}*Directeur*{{</ lead >}}
+
 "<Insérer le cv>"
 
-> *Emmanuel Puigdemont*
+### *Emmanuel Puigdemont*
+{{< lead >}}*Directeur Artistique*{{</ lead >}}
+
 
 {{< figure
     src="emmanuel.jpg"

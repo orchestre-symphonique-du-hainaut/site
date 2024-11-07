@@ -13,16 +13,12 @@ draft = false
 > Voici quelques photos :
 
 {{< gallery >}}
-  <img src="img/gall/01.jpg" class="grid-w33" />
-  <img src="img/gall/02.jpg" class="grid-w33" />
-  <img src="img/gall/03.jpg" class="grid-w66" />
-  <img src="img/gall/06.jpg" class="grid-w33" />
-  <img src="img/gall/08.jpg" class="grid-w33" />
-  <img src="img/gall/04.jpg" class="grid-w33" />
-  <img src="img/gall/07.jpg" class="grid-w33" />
-  <img src="img/gall/05.jpg" class="grid-w33" />
+  <img src="img/cascade/IMG_2102-3-Modifier-2.jpg" class="grid-w66" />
+  <img src="img/cascade/KV2A5540-2.jpg" class="grid-w33" />
+  <img src="img/cascade/KV2A5497-Modifier-2.jpg" class="grid-w33" />
+  <img src="img/cascade/KV2A5599-2.jpg" class="grid-w33" />
+  <img src="img/cascade/IMG_2029-Modifier-2.jpg" class="grid-w33" />
+  <img src="img/cascade/IMG_2012-Modifier-2.jpg" class="grid-w66" />
 {{< /gallery >}}
 
-
-{{< carousel images="img/*" >}}
-
+{{< carousel images="img/carrousel/IMG_2037-4.jpg" >}}

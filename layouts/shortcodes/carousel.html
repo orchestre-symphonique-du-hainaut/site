@@ -1,0 +1,65 @@
+{{ $id := delimit (slice "carousel" (partial "functions/uid.html" .)) "-" }}
+{{ $aspect := default "16-9" (.Get "aspectRatio") }}
+{{ $interval := default "2000" (.Get "interval") }}
+
+{{ $page := .Page.Resources }}
+{{ $imagesTemp := .Get "images" }}
+{{ $imagesTemp = strings.TrimPrefix "{" $imagesTemp  }}
+{{ $imagesTemp = strings.TrimSuffix "}" $imagesTemp  }}
+{{ $imagesTemp := strings.Split $imagesTemp "," }}
+{{ $images := slice}}
+{{ range $imagesTemp }}
+    {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
+        {{ $images = $images | append (resources.GetRemote .) }}
+    {{ else }}
+        {{ $images = $images | append ($page.Match .) }}
+    {{ end }}
+{{ end }}
+
+<div id="{{ $id }}" class="relative" data-twe-carousel-init data-twe-ride="carousel">
+    <div class="absolute right-0 bottom-0 left-0 z-[2] mx-[15%] mb-10 flex list-none justify-center p-0"
+        data-twe-carousel-indicators>
+
+        {{ $num := 0 }}
+        {{ range $images }}
+
+        <button type="button" data-twe-target="#{{ $id }}" data-twe-slide-to="{{ $num }}" {{ if eq $num 0 }} data-twe-carousel-active aria-current="true" {{ end }} 
+        class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-neutral bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+        aria-label="Slide {{ $num }}"></button>
+
+        {{ $num = add $num 1 }}
+        {{ end }}
+
+    </div>
+    <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+
+        {{ $num := 0 }}
+        {{ range $images }}
+
+        <div class="relative float-left -mr-[100%] {{ if not (eq $num 0) }} hidden {{ end }} w-full transition-transform duration-[{{ $interval }}ms] ease-in-out motion-reduce:transition-none"
+            data-twe-carousel-item {{ if eq $num 0 }} data-twe-carousel-active {{ end }}>
+            <!-- <div class="ratio-{{ $aspect }} single_hero_background"> -->
+            <div class="ratio-{{ $aspect }}">
+                <img src="{{ .RelPermalink }}" class="block absolute top-0 object-cover w-full h-full nozoom" alt="carousel image {{$num}}"/>
+            </div>
+        </div>
+
+        {{ $num = add $num 1 }}
+        {{ end }}
+
+    </div>
+    <button
+        class="absolute top-0 bottom-0 flex z-[2] h-12 w-12 m-auto items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+        type="button" data-twe-target="#{{ $id }}" data-twe-slide="prev">
+        ←
+        <span
+            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+    </button>
+    <button
+        class="absolute top-0 bottom-0 right-0 z-[1] flex h-12 w-12 m-auto items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+        type="button" data-twe-target="#{{ $id }}" data-twe-slide="next">
+        →
+        <span
+            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+    </button>
+</div>
