@@ -10,7 +10,6 @@
       {{ $background = resources.GetRemote . }}
     {{ else }}
       {{ $background = $images.GetMatch . }}
-      {{ . }}
     {{ end }}
   {{ end }}
 {{ end -}}

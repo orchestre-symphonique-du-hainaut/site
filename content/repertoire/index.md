@@ -9,7 +9,7 @@ showDate = false
 
 **Beethoven**, *Symphonie N°5*
 
-**Bizet**
+**Bizet**,
   - *« Carmen raconté »*
   - *Les Suites de L’Arlesienne*
 
@@ -68,14 +68,14 @@ West Sise Story, suite symphonique
 
 ## Programme Solistes invités:
 
-***Mozart***
+***Mozart***,
   - Concerto pour Basson, *Noé Balmer*
   - Concerto pour Clarinette, *Joé Christophe*
   - Concerto pour Piano n°23, *Pierre-Louis Filliot*
 
 ***Saint-Saens***, Concerto pour violoncelle, *Guillaume Bouillon*
 
-***Schumann***
+***Schumann***,
   - Concerto pour piano (*Pierre-Louis Filliot*)
 
 ## Programme Musique Religieuse

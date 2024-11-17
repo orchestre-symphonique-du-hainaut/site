@@ -2,8 +2,13 @@ html {
     font-size: 1.2em;
 }
 
+
 article {
   --w-prose: 65ch;
+}
+
+img {
+  max-height: 50vh;
 }
 
 #the-top {
@@ -16,4 +21,21 @@ article {
 
 .w-prose {
   width: var(--w-prose);
+}
+
+.h-12 {
+  height: 3rem;
+}
+
+.min-w-\[3rem\] {
+  min-width: 3rem;
+}
+
+.-ml-14 {
+  margin-left: -3.5rem;
+}
+
+.text-3xl {
+  font-size: 1.75rem;
+  line-height: 2rem;
 }

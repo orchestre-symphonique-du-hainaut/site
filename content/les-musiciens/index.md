@@ -1,12 +1,13 @@
-+++
-title = "L'orchestre"
-date = 2024-07-12T11:12:09+02:00
-draft = false
-showDate = false
-+++
+---
+title: "L'orchestre"
+date: 2024-07-12T11:12:09+02:00
+draft: false
+showDate: false
+showPagination: false
+---
 
 Dans la tradition des orchestres d’harmonies très
-présents en Haut de France naît en 2009 l’Orchestre
+présents en Haut de France naît en 2008 l’Orchestre
 Symphonique du Hainaut, sous l’impulsion d’Emmanuel
 Puigdemont, violoncelliste et chef d’orchestre.  
   
@@ -30,14 +31,14 @@ L’Orchestre Symphonique du Hainaut est en résidence
 ### *Eric Lannoy*
 {{< lead >}}*Directeur*{{</ lead >}}
 
-"<Insérer le cv>"
+<!-- "<Insérer le cv>" -->
 
 ### *Emmanuel Puigdemont*
 {{< lead >}}*Directeur Artistique*{{</ lead >}}
 
 
 {{< figure
-    src="emmanuel.jpg"
+    src="img/emmanuel.jpg"
     alt="Emmanuel Puigdemont"
     >}}
 
@@ -63,74 +64,111 @@ L'Orchestre Symphonique du Hainaut que je crée en 2008 est le fruit de la volon
 
 Un chapitre que je souhaite long ! 
 
-Emmanuel Puigdemont 
-
+{{% rtl %}}
+*Emmanuel Puigdemont*
+{{% /rtl %}}
 
 ## Les musiciens
 
 
 {{< timeline >}}
 
-  {{< timelineItem icon="github" header="1er Violons" >}}
+  {{< timelineItem icon="violin" header="1er Violons" >}}
     {{< figure
-        src="1er.jpg"
+        src="img/1er.jpg"
         alt="Premier violons"
      >}}
   {{< /timelineItem >}}
-  {{< timelineItem icon="github" header="2nd Violons" >}}
+  {{< timelineItem icon="violin" header="2nd Violons" >}}
     {{< figure
-        src="2nd.jpg"
+        src="img/2nd.jpg"
         alt="Second violons"
      >}}
   {{< /timelineItem >}}
 
 
-  {{< timelineItem icon="code" header="Altos" >}}
+  {{< timelineItem icon="viola" header="Altos" >}}
     {{< figure
-        src="altos2.jpg"
+        src="img/altos2.jpg"
         alt="Altos"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Violoncelle" >}}
+  {{< timelineItem icon="cello" header="Violoncelles" >}}
     {{< figure
-        src="violoncelles.jpg"
-        alt="Violoncelle"
+        src="img/violoncelles.jpg"
+        alt="Violoncelles"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Contrebasse" >}}
+  {{< timelineItem icon="double-bass" header="Contrebasses" >}}
     {{< figure
-        src="Contrebasse.jpg"
-        alt="Contrebasse"
-     >}}
-  {{< /timelineItem >}}
-  {{< timelineItem icon="star" header="Flute" >}}
-    {{< figure
-        src="flutes.jpg"
-        alt="Flute"
+        src="img/Contrebasse.jpg"
+        alt="Contrebasses"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Clarinette" >}}
+  {{< timelineItem icon="flute" header="Flûtes" >}}
     {{< figure
-        src="clarinettes.jpg"
-        alt="Clarinette"
+        src="img/flutes.jpg"
+        alt="Flutes"
      >}}
   {{< /timelineItem >}}
-  {{< timelineItem icon="star" header="Cor" >}}
+
+  {{< timelineItem icon="star" header="Hautbois" >}}
     {{< figure
-        src="cors.jpg"
-        alt="Cor"
+        src="img/hautbois.jpg"
+        alt="Hautbois"
      >}}
   {{< /timelineItem >}}
-  {{< timelineItem icon="star" header="Trombone" >}}
+
+  {{< timelineItem icon="star" header="Clarinettes" >}}
     {{< figure
-        src="trombones.jpg"
-        alt="Trombone"
+        src="img/clarinettes.jpg"
+        alt="Clarinettes"
+     >}}
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="star" header="Bassons" >}}
+    {{< figure
+        src="img/basson.jpg"
+        alt="Bassons"
+     >}}
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="star" header="Trompettes" >}}
+    {{< figure
+        src="img/trompette.jpg"
+        alt="Trompette"
+     >}}
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="star" header="Cors" >}}
+    {{< figure
+        src="img/cors.jpg"
+        alt="Cors"
+     >}}
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="star" header="Trombones" >}}
+    {{< figure
+        src="img/trombones.jpg"
+        alt="Trombones"
+     >}}
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="star" header="Tubas" >}}
+    {{< figure
+        src="img/tuba.jpg"
+        alt="Tuba"
+     >}}
+  {{< /timelineItem >}}
+
+  {{< timelineItem icon="star" header="Percussions" >}}
+    {{< figure
+        src="img/timbales.jpg"
+        alt="Percussions"
      >}}
   {{< /timelineItem >}}
 
 {{< /timeline >}}
-
-

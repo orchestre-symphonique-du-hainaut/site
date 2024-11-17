@@ -1,6 +1,8 @@
 ---
-title: 'Nos Partenaires'
+title: 'Partenaires'
+draft: true
 showDate: false
+menu: main
 ---
 
 {{< lead >}}
