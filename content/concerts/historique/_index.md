@@ -1,7 +1,10 @@
 ---
 title: "Notre Historique"
-groupByYear:
+groupByYear: true
+DateOrder: desc
 showBreadcrumbs: false
+cascade:
+  summary: " "
 _build:
    list: false
 ---

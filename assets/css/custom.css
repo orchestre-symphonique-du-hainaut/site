@@ -2,6 +2,18 @@ html {
     font-size: 1.2em;
 }
 
+article {
+  --w-prose: 65ch;
+}
+
 #the-top {
   height: 0;
+}
+
+.max-w-prose {
+  max-width: var(--w-prose);
+}
+
+.w-prose {
+  width: var(--w-prose);
 }

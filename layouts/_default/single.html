@@ -2,6 +2,7 @@
 {{ .Scratch.Set "scope" "single" }}
 
 <article>
+  {{ .Site.Params.article.showHero | default "test" }}
   {{ if .Params.showHero | default (.Site.Params.article.showHero | default false) }}
   {{ $heroStyle := .Params.heroStyle }}
   {{ if not $heroStyle }}{{ $heroStyle = .Site.Params.article.heroStyle }}{{ end }}
@@ -80,7 +81,7 @@
         
         {{ partial "series/series.html" . }}
 
-        <div class="article-content max-w-prose">
+        <div class="article-content w-prose">
           {{ .Content }}
         </div>
         

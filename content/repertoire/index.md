@@ -33,49 +33,55 @@ showDate = false
 
 ## Programme Cinéma !
 
-- Bohemian Rhapsody
+Bohemian Rhapsody
 
-- Harry Potter, suite symphonique
-- Le Patient Anglais (avec l’aimable autorisation du compositeur *Gabriel Yared*)
-- Mission Impossible
-- Star Wars Medley
-- Titanic, suite symphonique
-- Tribute of *John Williams*
-- West Sise Story, suite symphonique
+Harry Potter, suite symphonique
+
+Le Patient Anglais (avec l’aimable autorisation du compositeur *Gabriel Yared*)  
+
+Mission Impossible
+
+Star Wars Medley
+
+Titanic, suite symphonique
+
+Tribute of *John Williams*
+
+West Sise Story, suite symphonique
+
 
 ## Programme Cordes : « Les Tubes du Baroque »
 
-*Albinoni*
-  - Adagio
+***Albinoni***, *Adagio*
 
-*Bach*
-  - Aria
+***Bach***, *Aria*
 
-*Corelli*
-  - Concerto pour la Nuite de Noel
-*Haendel*
-  - L’Arrivee de la Reine de Saba
-*Jenkins*
-  - Palladio
-*Pachelbel*
-  - Canon
-*Vivaldi*
-  - concertos pour orchestre ou instrument soliste
+***Corelli***, *Concerto pour la Nuit de Noel*
+
+***Haendel***, *L’Arrivee de la Reine de Saba*
+
+***Jenkins***, *Palladio*
+
+***Pachelbel***, *Canon*
+
+***Vivaldi***, *Concertos pour orchestre ou instrument soliste*
 
 ## Programme Solistes invités:
-*Mozart*
-  - Concerto pour Basson (*Noé Balmer*)
-  - Concerto pour Clarinette (*Joé Christophe*)
-  - Concerto pour piano n° 23 (*Pierre-Louis Filliot*)
-*Saint-Saens*
-  - Concerto pour violoncelle (*Guillaume Bouillon*)
-*Schumann*
-  Concerto pour piano (*Pierre-Louis Fillio*)
+
+***Mozart***
+  - Concerto pour Basson, *Noé Balmer*
+  - Concerto pour Clarinette, *Joé Christophe*
+  - Concerto pour Piano n°23, *Pierre-Louis Filliot*
+
+***Saint-Saens***, Concerto pour violoncelle, *Guillaume Bouillon*
+
+***Schumann***
+  - Concerto pour piano (*Pierre-Louis Filliot*)
 
 ## Programme Musique Religieuse
 
-150 musiciennes et musiciens
 
-Mozart, [*REQUIEM*]({{< ref "/tags/requiem" >}})
+***Mozart***, [*REQUIEM*]({{< ref "/tags/requiem" >}})  
+       *Avec 150 choristes*
 
-Charpentier, *TE DEUM*
+***Charpentier***, *TE DEUM*

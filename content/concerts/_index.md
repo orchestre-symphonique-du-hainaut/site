@@ -1,8 +1,5 @@
 ---
 title: "Concerts"
-groupByYear: false
+groupByYear: true
+DateOrder: asc
 ---
-
-{{< lead >}}
-Saison *2024/2025*
-{{</ lead >}}
