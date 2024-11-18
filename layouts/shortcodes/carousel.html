@@ -1,3 +1,4 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ $id := delimit (slice "carousel" (partial "functions/uid.html" .)) "-" }}
 {{ $aspect := default "16-9" (.Get "aspectRatio") }}
 {{ $interval := default "2000" (.Get "interval") }}
@@ -8,6 +9,9 @@
 {{ $imagesTemp = strings.TrimSuffix "}" $imagesTemp  }}
 {{ $imagesTemp := strings.Split $imagesTemp "," }}
 {{ $images := slice}}
+
+{{- $class := .Get "class" }}
+
 {{ range $imagesTemp }}
     {{ if or (strings.HasPrefix . "http:") (strings.HasPrefix . "https:") }}
         {{ $images = $images | append (resources.GetRemote .) }}
@@ -40,7 +44,22 @@
             data-twe-carousel-item {{ if eq $num 0 }} data-twe-carousel-active {{ end }}>
             <!-- <div class="ratio-{{ $aspect }} single_hero_background"> -->
             <div class="ratio-{{ $aspect }}">
-                <img src="{{ .RelPermalink }}" class="block absolute top-0 object-cover w-full h-full nozoom" alt="carousel image {{$num}}"/>
+            {{- if or $disableImageOptimization (eq .MediaType.SubType "svg")}}
+                <img src="{{ .RelPermalink }}"
+                     class="block absolute top-0 object-cover w-full h-full nozoom{{ with $class }} {{ . }}{{ end }}"
+                     alt="carousel image {{$num}}"/>
+            {{- else }}
+                <img
+                  class="block absolute my-0 rounded-md nozoom top-0 object-cover w-full h-full{{ with $class }} {{ . }}{{ end }}"
+                  srcset="
+                  {{ (.Resize "330x").RelPermalink }} 330w,
+                  {{ (.Resize "660x").RelPermalink }} 660w,
+                  {{ (.Resize "1024x").RelPermalink }} 1024w,
+                  {{ (.Resize "1320x").RelPermalink }} 2x"
+                  src="{{ (.Resize "660x").RelPermalink }}"
+                  alt="carousel image {{$num}}"
+                />
+            {{- end }}
             </div>
         </div>
 
