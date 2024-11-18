@@ -15,7 +15,8 @@ title = "Orchestre Symphonique du Hainaut"
 
 [author]
   name =  "Orchestre Symphonique du Hainaut"
-  image = "img/osh_logo.png"
+  image = "img/logo/logo-round.png"
+  text_image = "img/logo/osh-txt.png"
   # headline =
   bio = "A little bit about you"
   links = [

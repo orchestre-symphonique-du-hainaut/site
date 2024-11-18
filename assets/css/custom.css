@@ -7,7 +7,7 @@ article {
   --w-prose: 65ch;
 }
 
-img {
+figure img {
   max-height: 50vh;
 }
 
