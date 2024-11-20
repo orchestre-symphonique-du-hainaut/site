@@ -75,13 +75,11 @@ West Sise Story, suite symphonique
 
 ***Saint-Saens***, Concerto pour violoncelle, *Guillaume Bouillon*
 
-***Schumann***,
-  - Concerto pour piano (*Pierre-Louis Filliot*)
+***Schumann***, Concerto pour piano, *Pierre-Louis Filliot*
 
-## Programme Musique Religieuse
+## Programme Musique Religieuse avec chœurs
 
 
 ***Mozart***, [*REQUIEM*]({{< ref "/tags/requiem" >}})  
-       *Avec 150 choristes*
 
 ***Charpentier***, *TE DEUM*

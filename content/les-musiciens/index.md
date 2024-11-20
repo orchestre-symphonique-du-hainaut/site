@@ -6,8 +6,8 @@ showDate: false
 showPagination: false
 ---
 
-Dans la tradition des orchestres d’harmonies très
-présents en Haut de France naît en 2008 l’Orchestre
+Dans la tradition des orchestres d’harmonie très
+présents en Haut-de-France naît en 2008 l’Orchestre
 Symphonique du Hainaut, sous l’impulsion d’Emmanuel
 Puigdemont, violoncelliste et chef d’orchestre.  
   
@@ -44,17 +44,17 @@ L’Orchestre Symphonique du Hainaut est en résidence
 
 « J'ai debuté la musique à l'âge de 6 ans et le violoncelle à l'âge de 9 ans dans ma ville natale, Maubeuge.
 
-Je n'ai jamais pensé alors devenir musicien professionnel mais à 14 ans, assistant à un concert du Jeune Orchestre Symphonique de Douai je le décidais.
+Je n'ai jamais pensé alors devenir musicien professionnel mais à 14 ans, assistant à un concert du Jeune Orchestre Symphonique de Douai je le décidai.
 
 Commença alors un parcours de vie riche et passionnant…
 
 Je considère que la vie est comme un livre avec ses chapitres.
 
-Le premier, l apprentisage pré-professionnel, les conservatoires, les heures de gammes et de répertoire, des sacrifices mais déjà les voyages à travers le monde au sein de différentes formations orchestrales et de belles rencontres… (Europe, Japon).
+Le premier, l'apprentissage pré-professionnel, les conservatoires, les heures de gammes et de répertoire, des sacrifices mais déjà les voyages à travers le monde au sein de différentes formations orchestrales et de belles rencontres… (Europe, Japon).
 
 Le second, le choix de la pédagogie, après des études supérieures à la Haute Ecole de Musique de Genève, finalisées par deux Prix de virtuosité et de musique de chambre, des concerts en soliste, apparaîtra une évidence : transmettre, partager, découvrir sans cesse…
 
-La musique de chambre qui sera une étape importante de ma vie de musicien au sein du Sextuor à Cordes du Nord-Pas de Calais me fera rencontrer des gens qui me marqueront et … toujours la pédagogie et les voyages (Amérique du sud, Asie centrale).
+La musique de chambre qui sera une étape importante de ma vie de musicien au sein du Sextuor à Cordes du Nord-Pas-de-Calais me fera rencontrer des gens qui me marqueront et … toujours la pédagogie et les voyages (Amérique du sud, Asie centrale).
 
 Le troisième étape arrivera un peu par hasard : la direction d'orchestre. Lors d’un stage où j'enseignais le violoncelle, on me proposa la création d'une Messe pour choeur et orchestre, une révélation, un autre mode d'expression s’ouvrait pour moi.
 
