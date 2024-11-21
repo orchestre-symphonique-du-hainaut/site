@@ -47,7 +47,7 @@ Titanic, suite symphonique
 
 Tribute of *John Williams*
 
-West Sise Story, suite symphonique
+West Side Story, suite symphonique
 
 
 ## Programme Cordes : « Les Tubes du Baroque »

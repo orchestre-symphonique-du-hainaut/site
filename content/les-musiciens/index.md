@@ -115,56 +115,56 @@ Un chapitre que je souhaite long !
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Hautbois" >}}
+  {{< timelineItem icon="oboe" header="Hautbois" >}}
     {{< figure
         src="img/hautbois.jpg"
         alt="Hautbois"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Clarinettes" >}}
+  {{< timelineItem icon="clarinet" header="Clarinettes" >}}
     {{< figure
         src="img/clarinettes.jpg"
         alt="Clarinettes"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Bassons" >}}
+  {{< timelineItem icon="bassoon" header="Bassons" >}}
     {{< figure
         src="img/basson.jpg"
         alt="Bassons"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Trompettes" >}}
+  {{< timelineItem icon="trumpet" header="Trompettes" >}}
     {{< figure
         src="img/trompette.jpg"
         alt="Trompette"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Cors" >}}
+  {{< timelineItem icon="french-horn" header="Cors" >}}
     {{< figure
         src="img/cors.jpg"
         alt="Cors"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Trombones" >}}
+  {{< timelineItem icon="trombone" header="Trombones" >}}
     {{< figure
         src="img/trombones.jpg"
         alt="Trombones"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Tubas" >}}
+  {{< timelineItem icon="tuba" header="Tubas" >}}
     {{< figure
         src="img/tuba.jpg"
         alt="Tuba"
      >}}
   {{< /timelineItem >}}
 
-  {{< timelineItem icon="star" header="Percussions" >}}
+  {{< timelineItem icon="timpanis" header="Percussions" >}}
     {{< figure
         src="img/timbales.jpg"
         alt="Percussions"

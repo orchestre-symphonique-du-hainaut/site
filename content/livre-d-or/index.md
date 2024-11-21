@@ -6,13 +6,13 @@ showDate: false
 Ils témoignent pour nous...
 
 {{< timeline >}}
-{{< timelineItem icon="edit" header="Lettre de Nicole Falien" >}}
+{{< timelineItem icon="edit" header="Lettre de Nicole Fallien" >}}
 
 Artiste lyrique internationale pour Emmanuel Puigdemont
 
   {{< figure
-      src="1.png"
-      alt="Nicole Falien"
+      src="nicole-fallien.jpg"
+      alt="Nicole Fallien"
       >}}
 
 {{< /timelineItem >}}
@@ -20,18 +20,21 @@ Artiste lyrique internationale pour Emmanuel Puigdemont
 
 {{< timelineItem icon="edit" >}}
 
-    Tout est possible à qui rêve, ose, travaille et n’abandonne jamais. Un grand bravo pour votre talent et bon vent à toute l'équipe.
+    <i>Tout est possible à qui rêve, ose, travaille et n’abandonne jamais. Un grand bravo pour votre talent et bon vent à toute l'équipe.
 
+<br/>
+<br/>
     Merci beaucoup pour tous les moments partagés sous la halle de notre village.
+<br/>
+<br/>
+    Avec tous mes encouragements.</i>
 
-    Avec tous mes encouragements.
-
-    {{< rtl >}}
-    {{< lead >}}
-    *Bruno Lejeune*
-    {{</ lead >}}
-    Maire de Oisy
-    {{</ rtl >}}
+{{< rtl >}}
+{{< lead >}}
+  *Bruno Lejeune*
+{{</ lead >}}
+Maire de Oisy
+{{</ rtl >}}
 
   {{< /timelineItem >}}
 {{< /timeline >}}
