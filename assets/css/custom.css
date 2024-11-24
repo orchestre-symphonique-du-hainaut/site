@@ -2,13 +2,17 @@ html {
     font-size: 1.2em;
 }
 
-
 article {
   --w-prose: 65ch;
 }
 
 figure img {
   max-height: 50vh;
+}
+
+.thumbnail_card {
+  height: 300px;
+  background-position: top;
 }
 
 #the-top {
