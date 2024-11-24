@@ -38,7 +38,7 @@ L’Orchestre Symphonique du Hainaut est en résidence
 
 
 {{< figure
-    src="img/emmanuel.jpg"
+    src="img/emmanuel2.jpg"
     alt="Emmanuel Puigdemont"
     >}}
 
