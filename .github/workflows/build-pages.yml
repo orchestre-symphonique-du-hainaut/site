@@ -54,7 +54,7 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --D \
+            -D \
             --baseURL "${{ steps.pages.outputs.base_url }}/draft/"
           mv public/ draft/
       - name: Build with Hugo
