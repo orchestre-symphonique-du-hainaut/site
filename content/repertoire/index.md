@@ -11,7 +11,7 @@ showDate = false
 
 **Bizet**,
   - *« Carmen raconté »*
-  - *Les Suites de L’Arlesienne*
+  - *Les Suites de L’Arlésienne*
 
 **Debussy**, *Petite Suite*
 
@@ -25,13 +25,13 @@ showDate = false
 
 ***Listz***, *Les Préludes*
 
-***Mendelssohn***, *Ouverture des Hebrides*
+***Mendelssohn***, *Ouverture des Hébrides*
 
-***Ravel***, *le Boléro*
+***Ravel***, *Le Boléro*
 
 ***Verdi***, *Ouverture de la Force du Destin*
 
-## Programme Cinéma !
+## Programme Cinéma !
 
 Bohemian Rhapsody
 
@@ -50,15 +50,15 @@ Tribute of *John Williams*
 West Side Story, suite symphonique
 
 
-## Programme Cordes : « Les Tubes du Baroque »
+## Programme Cordes : « Les Tubes du Baroque »
 
 ***Albinoni***, *Adagio*
 
 ***Bach***, *Aria*
 
-***Corelli***, *Concerto pour la Nuit de Noel*
+***Corelli***, *Concerto pour la Nuit de Noël*
 
-***Haendel***, *L’Arrivee de la Reine de Saba*
+***Haendel***, *L’Arrivée de la Reine de Saba*
 
 ***Jenkins***, *Palladio*
 
@@ -66,11 +66,11 @@ West Side Story, suite symphonique
 
 ***Vivaldi***, *Concertos pour orchestre ou instrument soliste*
 
-## Programme Solistes invités:
+## Programme Solistes invités :
 
 ***Mozart***,
   - Concerto pour Basson, *Noé Balmer*
-  - Concerto pour Clarinette, *Joé Christophe*
+  - Concerto pour Clarinette, *Joë Christophe*
   - Concerto pour Piano n°23, *Pierre-Louis Filliot*
 
 ***Saint-Saens***, Concerto pour violoncelle, *Guillaume Bouillon*

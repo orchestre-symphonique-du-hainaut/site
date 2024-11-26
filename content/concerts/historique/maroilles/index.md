@@ -1,9 +1,10 @@
-+++
-title = 'Maroilles'
-date = 2024-10-06T22:37:54+02:00
-draft = false
-tags = ["Carmen","Arlesienne"]
-+++
+---
+title: 'Les Automnales de Maroilles'
+date: 2024-10-06T22:37:54+02:00
+draft: false
+tags: ["carmen","arlesienne"]
+summary: Maroilles, Église Saint-Humbert
+---
 
 {{< gallery >}}
   {{< galleryItem src="img/cascade/1B6A4327.jpg" class="grid-w66" >}}
