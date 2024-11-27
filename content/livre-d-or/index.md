@@ -6,6 +6,16 @@ showDate: false
 Ils témoignent pour nous...
 
 {{< timeline >}}
+{{< timelineItem icon="edit" header="Lettre d'Yves Dusart" >}}
+
+  Maire de Saint-Saulve
+
+  {{< figure
+      src="yves-dusart.jpg"
+      alt="Yves Dusart"
+      >}}
+
+{{< /timelineItem >}}
 {{< timelineItem icon="edit" header="Lettre de Nicole Fallien" >}}
 
 Artiste lyrique internationale pour Emmanuel Puigdemont

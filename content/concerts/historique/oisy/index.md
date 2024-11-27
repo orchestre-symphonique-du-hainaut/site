@@ -1,7 +1,6 @@
 ---
 title: 'Oisy'
 date: 2024-06-23T16:00:00+02:00
-draft: true
 tags: [carmen]
 summary: Oisy, sous la Halle
 ---

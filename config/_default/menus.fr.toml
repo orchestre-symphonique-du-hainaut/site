@@ -45,11 +45,10 @@
   pageRef = "livre-d-or"
   weight = 60
 
-# [[main]]
-#   name = "Partenaires"
-#   draft = true
-#   pageRef = "partenaires"
-#   weight = 70
+ [[main]]
+   name = "Partenaires"
+   pageRef = "partenaires"
+   weight = 70
 
 [[main]]
   name = "Contact"

@@ -1,9 +1,8 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2025-01-25
-draft: false
 summary: 'Maubeuge, Eglise Saint-Pierre & Saint-Paul'
-tags: ["Requiem"]
+tags: ["requiem"]
 featureimage: img/mozart.jpg
 ---
 

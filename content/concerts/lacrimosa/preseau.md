@@ -1,9 +1,8 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2025-04-27
-draft: false
 summary: 'Préseau, Eglise Sainte Aldegonde'
-tags: ["Requiem"]
+tags: ["requiem"]
 featureimage: img/mozart.jpg
 ---
 

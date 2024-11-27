@@ -2,7 +2,6 @@
 title: 'Partenaires'
 draft: true
 showDate: false
-menu: main
 ---
 
 {{< lead >}}

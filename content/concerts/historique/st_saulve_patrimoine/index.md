@@ -1,7 +1,6 @@
 ---
 title: 'Journées du Patrimoine'
 date: 2024-09-21T22:10:54+02:00
-draft: false
 tags: ["carmen"]
 summary: Saint-Saulve, Espace Athena
 ---

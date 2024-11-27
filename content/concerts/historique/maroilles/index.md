@@ -1,7 +1,6 @@
 ---
 title: 'Les Automnales de Maroilles'
 date: 2024-10-06T22:37:54+02:00
-draft: false
 tags: ["carmen","arlesienne"]
 summary: Maroilles, Église Saint-Humbert
 ---

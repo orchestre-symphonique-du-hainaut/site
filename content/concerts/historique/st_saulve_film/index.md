@@ -1,8 +1,6 @@
 ---
-title: 'Musique de Film'
+title: 'Musiques de Films'
 date: 2024-05-31T19:30:00+02:00
-draft: true
-tags: [films]
 summary: Saint-Saulve, Espace Athena
 ---
 

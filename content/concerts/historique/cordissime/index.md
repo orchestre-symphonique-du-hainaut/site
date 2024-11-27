@@ -1,7 +1,6 @@
 ---
 title: 'Cordissime !<br/>Baroquissime !'
 date: 2024-04-07T16:00:00+02:00
-draft: true
 tags: [vivaldi,pachelbel,bach,haendel]
 summary: "Onnaing, La Barjo"
 ---

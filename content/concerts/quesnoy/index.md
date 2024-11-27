@@ -1,8 +1,8 @@
 ---
 date: 2025-03-22T22:37:54+02:00
-title: 'Concert soliste invité Joe Christophe'
+title: 'Concert soliste invité Joë Christophe'
 summary: 'Le Quesnoy, Théâtre des 3 chênes'
-tags: [Mozart,Verdi,Ravel]
+tags: [mozart,verdi,ravel]
 ---
 
 Le Samedi 22 mars 2025,
