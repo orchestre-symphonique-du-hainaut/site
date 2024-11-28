@@ -1,6 +1,5 @@
 ---
 title: 'Partenaires'
-draft: true
 showDate: false
 ---
 
