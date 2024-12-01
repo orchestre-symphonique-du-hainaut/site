@@ -10,8 +10,8 @@ showDate = false
 **Beethoven**, *Symphonie N°5*
 
 **Bizet**,
-  - *« Carmen raconté »*
-  - *Les Suites de L’Arlésienne*
+  - [*« Carmen raconté »*]({{< ref "/tags/carmen" >}})
+  - [*Les Suites de L’Arlésienne*]({{< ref "/tags/arlesienne" >}})
 
 **Debussy**, *Petite Suite*
 
@@ -80,6 +80,6 @@ West Side Story, suite symphonique
 ## Programme Musique Religieuse avec chœurs
 
 
-***Mozart***, [*REQUIEM*]({{< ref "/tags/requiem" >}})  
+***Mozart***, [*REQUIEM*]({{< ref "/tags/requiem" >}})
 
 ***Charpentier***, *TE DEUM*

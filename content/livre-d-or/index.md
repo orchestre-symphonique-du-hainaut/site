@@ -6,6 +6,17 @@ showDate: false
 Ils témoignent pour nous...
 
 {{< timeline >}}
+
+{{< timelineItem icon="edit" header="Lettre d'Olivier Caffiaux" >}}
+
+  Président de La Nouvelle Humbertine
+
+  {{< figure
+      src="maroilles.jpg"
+      alt="Lettre d'Olivier Caffiaux"
+      >}}
+
+{{< /timelineItem >}}
 {{< timelineItem icon="edit" header="Lettre d'Yves Dusart" >}}
 
   Maire de Saint-Saulve
