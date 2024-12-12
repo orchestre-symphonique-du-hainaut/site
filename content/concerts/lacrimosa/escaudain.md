@@ -4,7 +4,7 @@ date: 2025-04-24
 draft: true
 summary: 'Escaudain'
 tags: ["requiem"]
-featureimage: img/mozart.jpg
+featureimage: img/lacrimosa.jpg
 ---
 
 Le 24 Avril
