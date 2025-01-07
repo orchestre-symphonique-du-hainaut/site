@@ -6,7 +6,13 @@ tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-Le 25 janvier 2025,
+Le 25 janvier 2025 à 18H00,
+
 
 {{< icon "location-dot" >}} Maubeuge, Eglise Saint-Pierre & Saint-Paul
+
+{{< figure
+    src="img/lacrimosa.jpg"
+    alt="Affiche"
+>}}
 

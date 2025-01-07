@@ -9,3 +9,9 @@ featureimage: img/lacrimosa.jpg
 Le 26 avril 2025,
 
 {{< icon "location-dot" >}} Préseau, Église Sainte Aldegonde
+
+{{< figure
+    src="img/lacrimosa.jpg"
+    alt="Affiche"
+>}}
+

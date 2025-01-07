@@ -11,3 +11,8 @@ Le 24 Avril
 
 {{< icon "location-dot" >}} Escaudain
 
+{{< figure
+    src="img/lacrimosa.jpg"
+    alt="Affiche"
+>}}
+

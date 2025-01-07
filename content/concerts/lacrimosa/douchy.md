@@ -6,7 +6,12 @@ tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-Le 29 janvier 2025,
+Le 29 janvier 2025 à 19H30,
 
 {{< icon "location-dot" >}} Douchy-les-Mines, Salle L'Imaginaire 
+
+{{< figure
+    src="img/lacrimosa.jpg"
+    alt="Affiche"
+>}}
 

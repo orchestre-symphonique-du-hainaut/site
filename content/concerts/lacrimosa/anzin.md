@@ -10,3 +10,7 @@ Le 8 avril 2025,
 
 {{< icon "location-dot" >}} Anzin, Église Sainte Barbe
 
+{{< figure
+    src="img/lacrimosa.jpg"
+    alt="Affiche"
+>}}

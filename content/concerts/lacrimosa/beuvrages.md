@@ -11,6 +11,7 @@ Le 8 mars 2025,
 {{< icon "location-dot" >}} Beuvrages, Salle Dubedout
 
 {{< figure
-    src="img/mozart.jpg"
+    src="img/lacrimosa.jpg"
     alt="Affiche"
 >}}
+
