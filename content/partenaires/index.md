@@ -22,5 +22,6 @@ Ils nous accompagnent :
   {{< galleryItem src="bara.jpg" class="grid-w80" >}}
   {{< galleryItem src="nidaplast.jpg" class="grid-w80" >}}
   {{< galleryItem src="sensey.jpg" class="grid-w80" >}}
+  {{< galleryItem src="construction-3d.jpg" class="grid-w80" >}}
 {{< /gallery >}}
 <!-- {{< /full-width >}} -->
