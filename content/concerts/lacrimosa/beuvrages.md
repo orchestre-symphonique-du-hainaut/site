@@ -1,14 +1,13 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-03-08
+date: 2025-03-08T20:00:00
+showTime: true
 summary: 'Beuvrages, Salle Dubedout'
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-Le 8 mars 2025,
-
-{{< icon "location-dot" >}} Beuvrages, Salle Dubedout
+> {{< icon "location-dot" >}} Beuvrages, Salle Dubedout
 
 {{< figure
     src="img/lacrimosa.jpg"

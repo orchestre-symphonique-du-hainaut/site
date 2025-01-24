@@ -7,8 +7,6 @@ tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-Le 24 Avril
-
 {{< icon "location-dot" >}} Escaudain
 
 {{< figure

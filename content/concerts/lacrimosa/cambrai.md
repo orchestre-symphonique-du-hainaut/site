@@ -1,15 +1,17 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-04-26T20:00:00
+date: 2025-10-04T18:00:00
 showTime: true
-summary: 'Anzin, Église Sainte Barbe'
+summary: 'Cambrai'
 tags: ["requiem"]
+draft: true
 featureimage: img/lacrimosa.jpg
 ---
 
-> {{< icon "location-dot" >}} Anzin, Église Sainte Barbe
+> {{< icon "location-dot" >}} Cambrai
 
 {{< figure
     src="img/lacrimosa.jpg"
     alt="Affiche"
 >}}
+

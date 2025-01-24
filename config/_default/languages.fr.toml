@@ -8,6 +8,7 @@ title = "Orchestre Symphonique du Hainaut"
   isoCode = "fr"
   rtl = false
   dateFormat = "2 January 2006"
+  timeFormat = "15H04"
   # logo = "img/osh_logo.png"
   # secondaryLogo = "img/secondary-logo.png"
   # description = "My awesome website"

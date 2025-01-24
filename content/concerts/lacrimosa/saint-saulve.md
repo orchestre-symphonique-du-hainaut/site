@@ -1,8 +1,9 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-04-26T20:00:00
+date: 2025-09-21T16:00:00
 showTime: true
-summary: 'Anzin, Église Sainte Barbe'
+draft: true
+summary: 'Saint-Saulve'
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
@@ -13,3 +14,4 @@ featureimage: img/lacrimosa.jpg
     src="img/lacrimosa.jpg"
     alt="Affiche"
 >}}
+

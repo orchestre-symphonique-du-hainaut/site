@@ -1,0 +1,6 @@
+<time datetime="{{ . }}">
+  {{- i18n "article.date" (dict "Date" (partial "functions/date.html" .)) | markdownify -}}
+  , à {{ i18n "article.date" (dict "Date" (partial "functions/date-time.html" .)) | markdownify -}}
+</time>
+  {{- i18n "article.time" (dict "Date" (partial "functions/date-time.html" .)) | markdownify -}}
+{{- /* Trim EOF */ -}}

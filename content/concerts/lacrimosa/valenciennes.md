@@ -1,15 +1,14 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-01-25
-summary: 'Maubeuge, Eglise Saint-Pierre & Saint-Paul, 18H00'
+date: 2025-10-05T16:00:00
+showTime: true
+draft: true
+summary: 'Valenciennes'
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-Le 25 janvier 2025 à 18H00,
-
-
-{{< icon "location-dot" >}} Maubeuge, Eglise Saint-Pierre & Saint-Paul
+> {{< icon "location-dot" >}} Valenciennes
 
 {{< figure
     src="img/lacrimosa.jpg"
