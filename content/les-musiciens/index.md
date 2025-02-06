@@ -103,7 +103,7 @@ Un chapitre que je souhaite long !
 
   {{< timelineItem icon="double-bass" header="Contrebasses" >}}
     {{< figure
-        src="img/Contrebasse.jpg"
+        src="img/contrebasses.jpg"
         alt="Contrebasses"
      >}}
   {{< /timelineItem >}}
@@ -131,14 +131,14 @@ Un chapitre que je souhaite long !
 
   {{< timelineItem icon="bassoon" header="Bassons" >}}
     {{< figure
-        src="img/basson.jpg"
+        src="img/bassons.jpg"
         alt="Bassons"
      >}}
   {{< /timelineItem >}}
 
   {{< timelineItem icon="trumpet" header="Trompettes" >}}
     {{< figure
-        src="img/trompette.jpg"
+        src="img/trompettes.jpg"
         alt="Trompette"
      >}}
   {{< /timelineItem >}}
@@ -159,7 +159,7 @@ Un chapitre que je souhaite long !
 
   {{< timelineItem icon="tuba" header="Tubas" >}}
     {{< figure
-        src="img/tuba.jpg"
+        src="img/tubas.jpg"
         alt="Tuba"
      >}}
   {{< /timelineItem >}}
