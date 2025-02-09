@@ -38,7 +38,7 @@ defaultFeaturedImage = "img/tambour.jpg" # used as default for featured images i
 
 [homepage]
   layout = "custom" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/orchestre.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
+  homepageImage = "img/orchestre-lacrimosa-douchy.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
   showRecent = false
   showRecentItems = 5
   showMoreLink = true
