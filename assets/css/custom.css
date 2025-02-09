@@ -1,5 +1,12 @@
 html {
-    font-size: 1.2em;
+  font-size: 1.2em;
+}
+
+.text-base {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 article {
@@ -31,6 +38,7 @@ figure img {
   height: 3rem;
 }
 
+/* Icon thing */
 .min-w-\[3rem\] {
   min-width: 3rem;
 }
