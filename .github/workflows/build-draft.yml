@@ -35,7 +35,7 @@ jobs:
       - name: install Hugo
         uses: .github/actions/hugo-install@draft
         with:
-          hugo-version: ${{ HUGO_VERSION }}
+          hugo-version: ${{ env.HUGO_VERSION }}
 
       - name: Checkout
         uses: actions/checkout@v4
