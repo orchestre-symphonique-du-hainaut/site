@@ -1,0 +1,29 @@
+name: Setup Hugo environment
+
+inputs:
+  hugo-version:
+    required: true
+    type: string
+    description: "Hugo's version"
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Install Hugo CLI
+      run: |
+        wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${{ inputs.hugo-version }}/hugo_extended_${{ inputs.hugo-version }}_linux-amd64.deb \
+        && sudo dpkg -i ${{ runner.temp }}/hugo.deb
+      shell: bash
+
+    - name: Install Dart Sass
+      run: sudo snap install dart-sass
+      shell: bash
+
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v5
+
+    - name: Install Node.js dependencies
+      run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      shell: bash
+
