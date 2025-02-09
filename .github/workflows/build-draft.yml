@@ -33,7 +33,7 @@ jobs:
       HUGO_VERSION: 0.128.0
     steps:
       - name: install Hugo
-        uses: .github/actions/hugo-install.yaml
+        uses: .github/actions/hugo-install
         with:
           hugo-version: ${{ HUGO_VERSION }}
 
