@@ -89,7 +89,7 @@ Un chapitre que je souhaite long !
 
   {{< timelineItem icon="viola" header="Altos" >}}
     {{< figure
-        src="img/altos2.jpg"
+        src="img/altos.jpg"
         alt="Altos"
      >}}
   {{< /timelineItem >}}
