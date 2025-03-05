@@ -23,5 +23,6 @@ Ils nous accompagnent :
   {{< galleryItem src="nidaplast.jpg" class="grid-w80" >}}
   {{< galleryItem src="sensey.jpg" class="grid-w80" >}}
   {{< galleryItem src="construction-3d.jpg" class="grid-w80" >}}
+  {{< galleryItem src="selmer.png" class="grid-w80" >}}
 {{< /gallery >}}
 <!-- {{< /full-width >}} -->
