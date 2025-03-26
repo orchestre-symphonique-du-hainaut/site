@@ -7,12 +7,16 @@ tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-> {{< icon "location-dot" >}} Douchy-les-Mines, Salle L'Imaginaire 
+{{< lead >}}
 
-Réservation auprès de l'École de Musique et d'Art Dramatique « Frédéric Chopin ».
+*Photos à venir...*
+
+{{</ lead >}}
 
 {{< figure
     src="img/lacrimosa.jpg"
     alt="Affiche"
 >}}
+
+> {{< icon "location-dot" >}} Douchy-les-Mines, Salle L'Imaginaire
 

@@ -1,8 +1,8 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-01-25T18:00:00
+date: 2025-03-08T20:00:00
 showTime: true
-summary: 'Maubeuge, Eglise Saint-Pierre & Saint-Paul'
+summary: 'Beuvrages, Salle Dubedout'
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
@@ -14,9 +14,9 @@ featureimage: img/lacrimosa.jpg
 {{</ lead >}}
 
 {{< figure
-    src="feature.jpg"
+    src="img/lacrimosa.jpg"
     alt="Affiche"
 >}}
 
-> {{< icon "location-dot" >}} Maubeuge, Eglise Saint-Pierre & Saint-Paul
+> {{< icon "location-dot" >}} Beuvrages, Salle Dubedout
 
