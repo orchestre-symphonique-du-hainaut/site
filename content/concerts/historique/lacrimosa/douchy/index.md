@@ -6,12 +6,25 @@ summary: "Douchy-les-Mines, Salle L'Imaginaire"
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
+{{< figure src="img/IMG_2615-3.jpg" >}}
 
-{{< lead >}}
+{{< gallery >}}
+  {{< galleryItem src="img/IMG_2647-2.jpg" class="grid-w66" >}}
+  {{< galleryItem src="img/KV2A7604-2.jpg" class="grid-w33" >}}
 
-*Photos à venir...*
+  {{< galleryItem src="img/IMG_2724-2.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/KV2A7654-2.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/IMG_2668-2.jpg" class="grid-w33" >}}
 
-{{</ lead >}}
+  {{< galleryItem src="img/KV2A7412-2.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/IMG_2747-2.jpg" class="grid-w66" >}}
+
+  {{< galleryItem src="img/KV2A7526-2.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/KV2A7523-2.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/KV2A7522-2.jpg" class="grid-w33" >}}
+{{< /gallery >}}
+
+{{< carousel images="img/carrousel/*" >}}
 
 {{< figure
     src="img/lacrimosa.jpg"

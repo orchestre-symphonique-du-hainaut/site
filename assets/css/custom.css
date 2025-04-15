@@ -2,6 +2,11 @@ html {
   font-size: 1.2em;
 }
 
+div[id^='gallery_'], div[id^='carousel-'] {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .text-base {
   margin-top: 1rem;
   margin-bottom: 1rem;
