@@ -1,14 +1,13 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-09-21T16:00:00
+date: 2025-09-21T17:30:00
 showTime: true
-draft: true
-summary: 'Saint-Saulve'
+summary: 'Saint-Saulve, Église Saint Martin'
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-> {{< icon "location-dot" >}} Anzin, Église Sainte Barbe
+> {{< icon "location-dot" >}} Saint-Saulve, Église Saint Martin
 
 {{< figure
     src="img/lacrimosa.jpg"
