@@ -2,6 +2,7 @@ html {
   font-size: 1.2em;
 }
 
+/* Fix gallery and carousel */
 div[id^='gallery_'], div[id^='carousel-'] {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -41,6 +42,11 @@ figure img {
 
 .h-12 {
   height: 3rem;
+}
+
+/* grid */
+.gap-4 {
+  gap: 3rem;
 }
 
 /* Icon thing */
