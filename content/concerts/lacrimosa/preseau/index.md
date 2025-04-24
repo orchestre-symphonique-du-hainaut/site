@@ -12,7 +12,7 @@ Entrée Libre
 > {{< icon "location-dot" >}} Préseau, Église Sainte-Aldegonde
 
 {{< figure
-    src="img/lacrimosa.jpg"
+    src="feature.jpg"
     alt="Affiche"
 >}}
 
