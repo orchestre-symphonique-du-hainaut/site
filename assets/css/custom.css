@@ -2,12 +2,6 @@ html {
   font-size: 1.2em;
 }
 
-/* Fix gallery and carousel */
-div[id^='gallery_'], div[id^='carousel-'] {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
-}
-
 .text-base {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -42,6 +36,17 @@ figure img {
 
 .h-12 {
   height: 3rem;
+}
+
+/* Cards */
+.thumbnail_card {
+  height: 400px;
+}
+
+/* Fix gallery and carousel */
+div[id^='gallery_'], div[id^='carousel-'] {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* grid */
