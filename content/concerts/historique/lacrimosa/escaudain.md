@@ -1,7 +1,6 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2025-04-24T19:30:00
-showTime: true
 summary: 'Escaudain, Salle de la Jeunesse'
 tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
