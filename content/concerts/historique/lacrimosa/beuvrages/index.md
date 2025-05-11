@@ -6,16 +6,21 @@ tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-{{< lead >}}
-
-*Photos à venir...*
-
-{{</ lead >}}
-
 {{< figure
     src="img/lacrimosa.jpg"
     alt="Affiche"
 >}}
+
+{{< gallery >}}
+  {{< galleryItem src="img/DSC_9722.jpg" class="grid-w66" >}}
+  {{< galleryItem src="img/DSC_9739.jpg" class="grid-w33" >}}
+
+  {{< galleryItem src="img/DSC_9864.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/DSC_9970.jpg" class="grid-w33" >}}
+
+  {{< galleryItem src="img/DSC_9979.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/DSC_9983.jpg" class="grid-w33" >}}
+{{< /gallery >}}
 
 > {{< icon "location-dot" >}} Beuvrages, Salle Dubedout
 
