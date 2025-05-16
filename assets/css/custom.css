@@ -9,6 +9,18 @@ html {
   line-height: 1.5rem;
 }
 
+.guillemets::before {
+  position: absolute;
+  transform: translateX(-100%);
+  content: "«  ";
+}
+
+/* .guillemets::after { */
+/*   position: absolute; */
+/*   transform: translateX(-100%); */
+/*   content: " »"; */
+/* } */
+
 article {
   --w-prose: 65ch;
 }

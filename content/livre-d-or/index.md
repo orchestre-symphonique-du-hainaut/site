@@ -7,6 +7,48 @@ Ils témoignent pour nous...
 
 {{< timeline >}}
 
+{{< timelineItem icon="edit" header="Le requiem de Mozart..." >}}
+
+<i class="guillemets">
+Ou comment ravir un public de jeunes, moins jeunes,
+<br>
+avertis et non avertis !!
+<br>
+<br>
+Près de 800 personnes, une église archi-comblée Bref...
+<br>
+Nous avons été transportés dans la vie de Mozart,
+<br>
+Un moment tout simplement magique !!
+<br>
+<br>
+Merci à Emmanuel
+<br>
+Merci aux solistes
+<br>
+Merci aux choristes
+<br>
+Merci à l'orchestre symphonique
+<br>
+<br>
+Et merci à la narratrice... exceptionnelle ! »
+<!-- <br> -->
+<!-- Enfin vous étiez tous exceptionnels !!! -->
+</i>
+
+{{< rtl >}}
+{{< lead >}}
+Dominique WOJCIAK
+{{</ lead >}}
+Président de l'association des amis des orgues
+<br>
+de Saint-Pierre Saint-Paul, Maubeuge
+{{</ rtl >}}
+
+{{< /timelineItem >}}
+
+
+
 {{< timelineItem icon="edit" header="Lettre d'Olivier Caffiaux" >}}
 
   Président de La Nouvelle Humbertine
