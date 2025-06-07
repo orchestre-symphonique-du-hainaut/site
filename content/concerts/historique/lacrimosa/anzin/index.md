@@ -16,6 +16,7 @@ Entrée gratuite,
 
 {{< figure
     src="feature.jpg"
+    dir="lacrimosa/anzin"
     alt="Affiche"
 >}}
 

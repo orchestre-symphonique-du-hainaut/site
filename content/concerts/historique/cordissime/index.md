@@ -11,5 +11,6 @@ Le 7 avril 2024,
 
 {{< figure
     src="featured.jpg"
+      dir="cordissime"
     alt="Affiche"
 >}}

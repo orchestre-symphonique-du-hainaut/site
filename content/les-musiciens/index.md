@@ -39,6 +39,7 @@ L’Orchestre Symphonique du Hainaut est en résidence
 
 {{< figure
     src="img/emmanuel2.jpg"
+    dir="orchestre"
     alt="Emmanuel Puigdemont"
     >}}
 
@@ -76,12 +77,14 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="violin" header="1er Violons" >}}
     {{< figure
         src="img/1er.jpg"
+        dir="orchestre"
         alt="Premier violons"
      >}}
   {{< /timelineItem >}}
   {{< timelineItem icon="violin" header="2nd Violons" >}}
     {{< figure
         src="img/2nd.jpg"
+        dir="orchestre"
         alt="Second violons"
      >}}
   {{< /timelineItem >}}
@@ -90,6 +93,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="viola" header="Altos" >}}
     {{< figure
         src="img/altos.jpg"
+        dir="orchestre"
         alt="Altos"
      >}}
   {{< /timelineItem >}}
@@ -97,6 +101,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="cello" header="Violoncelles" >}}
     {{< figure
         src="img/violoncelles.jpg"
+        dir="orchestre"
         alt="Violoncelles"
      >}}
   {{< /timelineItem >}}
@@ -104,6 +109,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="double-bass" header="Contrebasses" >}}
     {{< figure
         src="img/contrebasses.jpg"
+        dir="orchestre"
         alt="Contrebasses"
      >}}
   {{< /timelineItem >}}
@@ -111,6 +117,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="flute" header="Flûtes" >}}
     {{< figure
         src="img/flutes.jpg"
+        dir="orchestre"
         alt="Flutes"
      >}}
   {{< /timelineItem >}}
@@ -118,6 +125,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="oboe" header="Hautbois" >}}
     {{< figure
         src="img/hautbois.jpg"
+        dir="orchestre"
         alt="Hautbois"
      >}}
   {{< /timelineItem >}}
@@ -125,6 +133,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="clarinet" header="Clarinettes" >}}
     {{< figure
         src="img/clarinettes.jpg"
+        dir="orchestre"
         alt="Clarinettes"
      >}}
   {{< /timelineItem >}}
@@ -132,6 +141,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="bassoon" header="Bassons" >}}
     {{< figure
         src="img/bassons.jpg"
+        dir="orchestre"
         alt="Bassons"
      >}}
   {{< /timelineItem >}}
@@ -139,6 +149,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="trumpet" header="Trompettes" >}}
     {{< figure
         src="img/trompettes.jpg"
+        dir="orchestre"
         alt="Trompette"
      >}}
   {{< /timelineItem >}}
@@ -146,6 +157,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="french-horn" header="Cors" >}}
     {{< figure
         src="img/cors.jpg"
+        dir="orchestre"
         alt="Cors"
      >}}
   {{< /timelineItem >}}
@@ -153,6 +165,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="trombone" header="Trombones" >}}
     {{< figure
         src="img/trombones.jpg"
+        dir="orchestre"
         alt="Trombones"
      >}}
   {{< /timelineItem >}}
@@ -160,6 +173,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="tuba" header="Tubas" >}}
     {{< figure
         src="img/tubas.jpg"
+        dir="orchestre"
         alt="Tuba"
      >}}
   {{< /timelineItem >}}
@@ -167,6 +181,7 @@ Un chapitre que je souhaite long !
   {{< timelineItem icon="timpanis" header="Percussions" >}}
     {{< figure
         src="img/timbales.jpg"
+        dir="orchestre"
         alt="Percussions"
      >}}
   {{< /timelineItem >}}

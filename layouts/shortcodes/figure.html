@@ -1,0 +1,53 @@
+{{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
+{{ if .Get "default" }}
+  {{ template "_internal/shortcodes/figure.html" . }}
+{{ else }}
+  {{- $url := urls.Parse (.Get "src") }}
+  {{- $directory := .Get "dir" }}
+  {{- $altText := .Get "alt" }}
+  {{- $caption := .Get "caption" }}
+  {{- $href := .Get "href" }}
+  {{- $class := .Get "class" }}
+  {{- $target := .Get "target" | default "_blank" }}
+  {{- $nozoom := .Get "nozoom" | default false -}}
+
+  <figure>
+  {{- with $href }}<a href="{{ . }}" {{ with $target }}target="{{ . }}"{{ end }}>{{ end -}}
+  {{- if findRE "^https?" $url.Scheme }}
+      <img class="my-0 rounded-md{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" src="{{ $url.String }}" alt="{{ $altText }}" />
+  {{- else }}
+    {{- $resource := "" }}
+    {{- if $.Page.Resources.GetMatch ($url.String) }}
+      {{- $resource = $.Page.Resources.GetMatch ($url.String) }}
+    {{- else if resources.GetMatch ($url.String) }}
+      {{- $resource = resources.Get ($url.String) }}
+    {{- end }}
+    {{- with $resource }}
+      {{- if or $disableImageOptimization (eq .MediaType.SubType "svg")}}
+        <img
+          class="my-0 rounded-md{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}"
+          src="{{ .RelPermalink }}"
+          alt="{{ $altText }}"
+        />
+      {{- else }}
+        {{ $w660  := slice (.Resize "660x")  | resources.Concat (printf "/img/%s/%s-660%s"  $directory (path.BaseName .Name) (path.Ext .Name)) }}
+        {{ $w1024 := slice (.Resize "1024x") | resources.Concat (printf "/img/%s/%s-1024%s" $directory (path.BaseName .Name) (path.Ext .Name)) }}
+        {{ $og := slice . | resources.Concat (printf "/img/%s/%s" $directory (path.Base .Name)) }}
+        <img
+          class="my-0 rounded-md{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}"
+          srcset="
+          {{ $w660.RelPermalink }} 660w,
+          {{ $w1024.RelPermalink }} 1024w,
+          {{ $og.RelPermalink }} {{ $og.Width }}w"
+          src="{{ $w660.RelPermalink }}"
+          alt="{{ $altText }}"
+        />
+      {{- end }}
+    {{- else }}
+      <img class="my-0 rounded-md{{ with $nozoom }} nozoom{{ end }}{{ with $class }} {{ . }}{{ end }}" src="{{ $url.String }}" alt="{{ $altText }}" />
+    {{- end }}
+  {{- end }}
+  {{ with $caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  {{ if $href }}</a>{{ end }}
+  </figure>
+{{- end -}}

@@ -11,6 +11,7 @@ featureimage: img/lacrimosa.jpg
 
 {{< figure
     src="img/lacrimosa.jpg"
+    dir="lacrimosa"
     alt="Affiche"
 >}}
 

@@ -10,5 +10,6 @@ Le 30 et 31 mai 2024,
 
 {{< figure
     src="featured.jpg"
+    dir="st_saulve_film"
     alt="Affiche"
 >}}

@@ -2,3 +2,6 @@
 	path = themes/blowfish
 	url = https://github.com/nunocoracao/blowfish.git
 	branch = main
+[submodule "assets/img"]
+	path = assets/img
+	url = git@github.com:orchestre-symphonique-du-hainaut/photos.git

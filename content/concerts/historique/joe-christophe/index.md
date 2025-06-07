@@ -13,6 +13,7 @@ tags: [mozart,verdi,ravel]
 
 {{< figure
     src="featured.jpg"
+    dir="joe-christophe"
     alt="Affiche"
 >}}
 

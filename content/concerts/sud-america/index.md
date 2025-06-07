@@ -1,7 +1,7 @@
 ---
 title: 'SUD AMERICA'
-date: 2025-06-29T15:00:00
-showTime: false
+date: 2025-06-29T16:00:00
+showTime: true
 summary: 'Arleux, Église Saint-Nicolas'
 ---
 
@@ -16,6 +16,7 @@ Entrée avec libre participation aux frais.
 
 {{< figure
     src="feature.jpg"
+    dir="sud-america"
     alt="Affiche"
 >}}
 

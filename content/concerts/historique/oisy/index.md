@@ -11,5 +11,6 @@ Le 23 juin 2024,
 
 {{< figure
     src="featured.jpg"
+    dir="oisy"
     alt="Affiche"
 >}}

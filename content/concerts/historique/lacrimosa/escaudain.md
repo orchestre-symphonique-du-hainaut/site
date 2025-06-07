@@ -12,6 +12,7 @@ Répétition publique
 
 {{< figure
     src="img/lacrimosa.jpg"
+    dir="lacrimosa"
     alt="Affiche"
 >}}
 

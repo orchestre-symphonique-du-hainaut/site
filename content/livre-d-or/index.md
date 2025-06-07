@@ -55,6 +55,7 @@ de Saint-Pierre Saint-Paul, Maubeuge
 
   {{< figure
       src="maroilles.jpg"
+      dir="livre-d-or"
       alt="Lettre d'Olivier Caffiaux"
       >}}
 
@@ -65,6 +66,7 @@ de Saint-Pierre Saint-Paul, Maubeuge
 
   {{< figure
       src="yves-dusart.jpg"
+      dir="livre-d-or"
       alt="Yves Dusart"
       >}}
 
@@ -75,6 +77,7 @@ Artiste lyrique internationale pour Emmanuel Puigdemont
 
   {{< figure
       src="nicole-fallien.jpg"
+      dir="livre-d-or"
       alt="Nicole Fallien"
       >}}
 
