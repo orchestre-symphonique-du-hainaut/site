@@ -12,8 +12,6 @@ featureimage: img/lacrimosa.jpg
 
 {{</ lead >}}
 
-Entrée gratuite, 
-
 {{< figure
     src="feature.jpg"
     dir="lacrimosa/anzin"
