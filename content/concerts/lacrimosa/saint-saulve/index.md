@@ -11,6 +11,9 @@ featureimage: img/lacrimosa.jpg
 
 _Entrée libre_
 
+Concert organisé par la ville de Saint-Saulve,  
+dans le cadre des [Journée Européennes du patrimoine](https://www.ville-saint-saulve.fr/event/journees-europeennes-du-patrimoine/).
+
 {{< figure
     src="feature.jpg"
     dir="lacrimosa"
