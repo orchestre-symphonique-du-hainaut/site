@@ -38,7 +38,7 @@ error:
 footer:
   dark_appearance: "Passer au thème sombre"
   light_appearance: "Passer au thème clair"
-  powered_by: "Propulsé par {{ .Hugo }} &amp; {{ .Theme }}, Icones par {{ .Icon }}"
+  powered_by: "Conçu avec {{ .Hugo }} &amp; {{ .Theme }}, Icones par {{ .Icon }}"
 
 list:
   externalurl_title: "Lien d'article externe."

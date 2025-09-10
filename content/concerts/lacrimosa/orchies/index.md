@@ -15,7 +15,7 @@ Billeterie en ligne sur [helloasso](https://www.helloasso.com/associations/les-a
 
 {{< figure
     src="featured.jpg"
-    dir="lacrimosa"
+    dir="lacrimosa/orchies"
     alt="Affiche"
 >}}
 

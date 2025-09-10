@@ -17,8 +17,8 @@ Concert au profit de l'[*Association Valenciennoise
 pour le Développement des Soins Palliatifs*](https://www.avdsp.org/).
 
 {{< figure
-    src="img/lacrimosa.jpg"
-    dir="lacrimosa"
+    src="featured.jpg"
+    dir="lacrimosa/valenciennes"
     alt="Affiche"
 >}}
 
