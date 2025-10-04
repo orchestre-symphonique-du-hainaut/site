@@ -1,9 +1,10 @@
-+++
-title = 'Contact'
-date = 2024-07-12T12:21:44+02:00
-draft = false
-showDate = false
-+++
+---
+title: 'Contact'
+date: 2024-07-12T12:21:44+02:00
+draft: false
+showDate: false
+showTableOfContents: false
+---
 
 ## Pour nous écrire :
 
@@ -17,3 +18,10 @@ __*Orchestre Symphonique du Hainaut*__
 {{< button href="mailto://orchestre-symphonique-du-hainaut@outlook.com">}}
 {{< icon "email" >}} orchestre-symphonique-du-hainaut@outlook.com
 {{< /button >}}
+
+## Pour nous rejoindre :
+
+<div class="wrapper full-width">
+  <div class="hidelogo"></div>
+  <iframe id="hcontact" scrolling="no" src="https://oshaccordparfait.opentalent.fr/formulaire-de-contact#c161538"></iframe>
+</div>

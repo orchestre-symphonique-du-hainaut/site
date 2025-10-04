@@ -1,14 +1,16 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
-date: 2025-10-04T18:00:00
-showTime: true
-summary: 'Cambrai'
+date: 2026-03-03T18:00:00
+showTime: false
+summary: 'Cambrai, Théâtre'
 tags: ["requiem"]
 draft: true
 featureimage: img/lacrimosa.jpg
 ---
 
-> {{< icon "location-dot" >}} Cambrai
+> {{< icon "location-dot" >}} Théâtre de Cambrai
+
+Rotary, entreprises
 
 {{< figure
     src="img/lacrimosa.jpg"

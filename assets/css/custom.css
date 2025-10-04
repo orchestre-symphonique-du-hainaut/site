@@ -2,6 +2,31 @@ html {
   font-size: 1.2em;
 }
 
+
+.wrapper{
+    position:relative;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.hidelogo{
+    width: 55px;
+    height: 40px;
+    background: #fcfcfc;
+    /* background: #0c0c0c; */
+    right: 0;
+    bottom: 105px;
+    position: absolute;
+    display: block;
+    color: #fff;
+}
+
+#hcontact {
+  width: 100%;
+  height: 975px;
+}
+
 .text-base {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -15,11 +40,15 @@ html {
   content: "«  ";
 }
 
-/* .guillemets::after { */
-/*   position: absolute; */
-/*   transform: translateX(-100%); */
-/*   content: " »"; */
-/* } */
+.guillemets::after {
+  position: absolute;
+  transform: translateX(-100%);
+  content: " »";
+}
+
+article:has(.full-width) {
+  --w-prose: 65ch;
+}
 
 article:has(.gallery) {
   --w-prose: 65ch;
