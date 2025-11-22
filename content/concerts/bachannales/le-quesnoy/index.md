@@ -8,12 +8,6 @@ tags: ["bachannales"]
 
 > {{< icon "location-dot" >}} Théâtre des 3 chênes, Le Quesnoy
 
-{{< figure
-    src="feature.jpg"
-    dir="bachannales/le-quesnoy"
-    alt="Affiche"
->}}
-
 > De l’élégance de **Gabriel Fauré** (Pavane),  
 > en passant par les danses populaires de **Brahms** (Hongroises),  
 > l’endiablée de **Saint-Saëns** (La Bacchanale),  
@@ -26,3 +20,9 @@ tags: ["bachannales"]
 {{< rtl >}}
 Billeterie en [ligne](https://billetterie-ville-de-le-quesnoy.mapado.com/event/593874-losh-joue-les-danses)
 {{</ rtl >}}
+
+{{< figure
+    src="feature.jpg"
+    dir="bachannales/le-quesnoy"
+    alt="Affiche"
+>}}
