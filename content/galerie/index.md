@@ -5,6 +5,12 @@ showDate: false
 
 {{< full-width >}}
 {{< gallery >}}
+  {{< galleryItem src="img/denain/DSC_6489.jpg" class="grid-w66" >}}
+  {{< galleryItem src="img/denain/_DSC0375.jpg" class="grid-w33" >}}
+  {{< galleryItem src="img/denain/_DSC0175.jpg" class="grid-w66" >}}
+{{< /gallery >}}
+<br/>
+{{< gallery >}}
   {{< galleryItem src="img/maroilles/cascade/1B6A4327.jpg" class="grid-w66" >}}
   {{< galleryItem src="img/maroilles/cascade/1B6A4329.jpg" class="grid-w33" >}}
   {{< galleryItem src="img/maroilles/cascade/1B6A4355.jpg" class="grid-w33" >}}
