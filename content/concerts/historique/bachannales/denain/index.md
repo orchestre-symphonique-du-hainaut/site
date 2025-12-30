@@ -22,10 +22,6 @@ Organisé par les Orchestre d'[Harmonie et de Batterie Fanfare de Denain](https:
 >
 > Pour clore cette soirée d’exception, les deux ensembles uniront leurs forces pour une interprétation grandiose de “Bohemian Rhapsody”.
 
-{{< rtl >}}
-Billeterie en ligne sur [helloasso](https://www.helloasso.com/associations/orchestre-d-harmonie-batterie-fanfare-de-denain/evenements/concert-caritatif-29-11-2025)
-{{</ rtl >}}
-
 {{< figure
     src="feature.jpg"
     dir="bachannales/denain"

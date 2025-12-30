@@ -8,21 +8,28 @@ tags: ["bachannales"]
 
 > {{< icon "location-dot" >}} Théâtre des 3 chênes, Le Quesnoy
 
-> De l’élégance de **Gabriel Fauré** (Pavane),  
-> en passant par les danses populaires de **Brahms** (Hongroises),  
-> l’endiablée de **Saint-Saëns** (La Bacchanale),  
-> la noblesse de **Haendel** (Sarabande),  
-> les rythmées de **Bernstein** (West Side Story)  
-> jusqu’à celle irrésistible de **Marquez** (Danzon).  
-> 
-> Un bel éventail musical pour une soirée classée sous le signe de l’élégance.
+Au programme :
 
-{{< rtl >}}
-Billeterie en [ligne](https://billetterie-ville-de-le-quesnoy.mapado.com/event/593874-losh-joue-les-danses)
-{{</ rtl >}}
+- De l’élégance de **Gabriel Fauré** (Pavane),  
+- en passant par les danses populaires de **Brahms** (Hongroises),  
+- l’endiablée de **Saint-Saëns** (La Bacchanale),  
+- la noblesse de **Haendel** (Sarabande),  
+- les rythmées de **Bernstein** (West Side Story)  
+- jusqu’à celle irrésistible de **Marquez** (Danzon).  
 
-{{< figure
-    src="feature.jpg"
-    dir="bachannales/le-quesnoy"
-    alt="Affiche"
->}}
+### Billeterie en [ligne](https://billetterie-ville-de-le-quesnoy.mapado.com/event/593874-losh-joue-les-danses)
+
+{{< full-width >}}
+{{< gallery >}}
+  {{< figure
+      src="noe.jpg"
+      alt="noe"
+  >}}
+
+  {{< figure
+      src="feature.jpg"
+      dir="bachannales/le-quesnoy"
+      alt="Affiche"
+  >}}
+{{< /gallery >}}
+{{</ full-width >}}
