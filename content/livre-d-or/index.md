@@ -54,7 +54,7 @@ de Saint-Pierre Saint-Paul, Maubeuge
   Président de La Nouvelle Humbertine
 
   {{< figure
-      src="maroilles.jpg"
+      src="img/maroilles.jpg"
       dir="livre-d-or"
       alt="Lettre d'Olivier Caffiaux"
       >}}
@@ -65,7 +65,7 @@ de Saint-Pierre Saint-Paul, Maubeuge
   Maire de Saint-Saulve
 
   {{< figure
-      src="yves-dusart.jpg"
+      src="img/yves-dusart.jpg"
       dir="livre-d-or"
       alt="Yves Dusart"
       >}}
@@ -76,7 +76,7 @@ de Saint-Pierre Saint-Paul, Maubeuge
 Artiste lyrique internationale pour Emmanuel Puigdemont
 
   {{< figure
-      src="nicole-fallien.jpg"
+      src="img/nicole-fallien.jpg"
       dir="livre-d-or"
       alt="Nicole Fallien"
       >}}
