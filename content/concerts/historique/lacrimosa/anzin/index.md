@@ -6,17 +6,10 @@ tags: ["requiem"]
 featureimage: img/lacrimosa.jpg
 ---
 
-{{< lead >}}
-
-*Photos à venir...*
-
-{{</ lead >}}
+> {{< icon "location-dot" >}} Anzin, Église Sainte-Barbe
 
 {{< figure
     src="feature.jpg"
     dir="lacrimosa/anzin"
     alt="Affiche"
 >}}
-
-> {{< icon "location-dot" >}} Anzin, Église Sainte-Barbe
-
