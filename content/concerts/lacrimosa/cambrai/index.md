@@ -1,7 +1,7 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2026-03-05T20:00:00
-showTime: false
+showTime: true
 summary: 'Cambrai, Théâtre'
 tags: ["requiem"]
 ---
