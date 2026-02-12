@@ -18,7 +18,6 @@ Organisé conjointement par le Club des Entrepreneurs en Cambrésis et le [Rotar
 {{< figure
     src="feature.png"
     dir="lacrimosa/cambrai"
-    dir="lacrimosa"
     alt="Affiche"
 >}}
 

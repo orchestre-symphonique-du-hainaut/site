@@ -1,7 +1,6 @@
 ---
 title: "L'OSH joue les danses !"
 date: 2026-01-17T20:00:00
-showTime: true
 summary: 'Le Quesnoy, Théâtre des 3 chênes'
 tags: ["bachannales"]
 ---
