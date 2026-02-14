@@ -13,7 +13,7 @@ association engagée à améliorer la qualité de vie des personnes touchées pa
 
 Organisé conjointement par le Club des Entrepreneurs en Cambrésis et le [Rotary Club de Cambrai](https://www.facebook.com/people/Rotary-Club-Cambrai/100067012275014/).
 
-### Billeterie en [ligne](https://billetterie-ville-de-le-quesnoy.mapado.com/event/593874-losh-joue-les-danses)
+### Billeterie en [ligne](https://www.helloasso.com/associations/club-des-entrepreneurs-en-cambresis-cec/evenements/requiem-une-fin-eternelle-cambrai)
 
 {{< figure
     src="feature.png"

@@ -13,6 +13,8 @@ Concert caritatif au profit de [La Chance aux Enfants](https://lachanceauxenfant
 
 Organisé par [La Maison de Mam’Jo](https://lamaisondemamjo.com/)
 
+### Billeterie en [ligne](https://www.helloasso.com/associations/la-maison-de-mam-jo/evenements/requiem-de-mozart)
+
 {{< figure
     src="feature.png"
     dir="lacrimosa/arras"
