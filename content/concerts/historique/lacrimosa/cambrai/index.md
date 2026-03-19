@@ -1,7 +1,6 @@
 ---
 title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2026-03-05T20:00:00
-showTime: true
 summary: 'Cambrai, Théâtre'
 tags: ["requiem"]
 ---
@@ -12,8 +11,6 @@ Concert caritatif au profit des [Ch'tis coureurs](https://www.leschtiscoureurs.o
 association engagée à améliorer la qualité de vie des personnes touchées par le cancer dans les Hauts-de-France.
 
 Organisé conjointement par le Club des Entrepreneurs en Cambrésis et le [Rotary Club de Cambrai](https://www.facebook.com/people/Rotary-Club-Cambrai/100067012275014/).
-
-### Billeterie en [ligne](https://www.helloasso.com/associations/club-des-entrepreneurs-en-cambresis-cec/evenements/requiem-une-fin-eternelle-cambrai)
 
 {{< figure
     src="feature.png"
