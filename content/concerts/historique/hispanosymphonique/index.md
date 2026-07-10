@@ -15,8 +15,6 @@ Avec les solistes :
 
 et Emmanuel Puigdemont à la direction.
 
-*Participation libre*
-
 {{< figure
     src="feature.jpg"
     dir="hispanosymphonique"
