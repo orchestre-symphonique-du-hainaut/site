@@ -1,0 +1,30 @@
+{{ $upcomingConcerts := 5 }}
+{{ $concertLink := "/concerts/" }}
+{{ if .Site.Params.homepage.showUpcoming | default false }}
+  {{ if index .Site.Params.homepage "showUpcomingItems" }}
+    {{ $upcomingConcerts = .Site.Params.homepage.showUpcomingItems }}
+  {{ end }}
+  <h2 class="mt-8 text-2xl font-extrabold mb-10">{{ i18n "upcoming.upcoming_concerts" | emojify }}</h2>
+
+  {{ if and .Site.Params.homepage.cardView (not .Site.Params.homepage.cardViewScreenWidth) | default false }}
+    {{ partial "upcoming-posts/cardview.html" . }}
+  {{ else if and .Site.Params.homepage.cardView .Site.Params.homepage.cardViewScreenWidth | default false }}
+    {{ partial "upcoming-posts/cardview-fullwidth.html" . }}
+  {{ else }}
+    {{ partial "upcoming-posts/list.html" . }}
+  {{ end }}
+
+  {{ if .Site.Params.homepage.showMoreUpcoming | default false }}
+    {{ if index .Site.Params.homepage "showUpcomingItems" }}
+      {{ $concertLink = .Site.Params.homepage.concertLink }}
+    {{ end }}
+    <div class="mt-10 flex justify-center">
+      <a href="{{ $concertLink | relLangURL }}">
+        <button
+          class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+          {{ i18n "upcoming.show_more" | markdownify }}
+        </button>
+      </a>
+    </div>
+  {{ end }}
+{{ end }}

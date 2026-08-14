@@ -5,6 +5,6 @@ DateOrder: desc
 showBreadcrumbs: false
 cascade:
   summary: " "
-_build:
+build:
    list: false
 ---

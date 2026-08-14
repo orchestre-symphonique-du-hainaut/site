@@ -4,6 +4,7 @@ global:
 article:
   anchor_label: "Ancre"
   date: "{{ .Date }}"
+  date_time: "{{ .Date }}, à {{ .Time }}"
   date_updated: "Mis à jour : {{ .Date }}"
   draft: "Brouillon"
   edit_title: "Modifier"
@@ -42,7 +43,7 @@ footer:
 
 list:
   externalurl_title: "Lien d'article externe."
-  no_articles: "Il n'y a pas encore d'article ici."
+  no_articles: ""
 
 nav:
   scroll_to_top_title: "Faire défiler jusqu'au bas de la page"
@@ -66,3 +67,7 @@ shortcode:
 
 recent:
   show_more: "Voir plus"
+
+upcoming:
+  show_more: "Voir tout les concerts à venir"
+  upcoming_concerts: "Concerts à venir"

@@ -7,7 +7,7 @@ theme = "blowfish" # UNCOMMENT THIS LINE
 defaultContentLanguage = "fr"
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
-
+contentDir = 'content/'
 enableRobotsTXT = true
 paginate = 10
 summaryLength = 0
@@ -70,7 +70,7 @@ enableEmoji = true
 
 [module]
   [[module.mounts]]
-    excludeFiles = '*.swp'
+    files = ['! *.swp']
     source = 'content'
     target = 'content'
   [[module.mounts]]

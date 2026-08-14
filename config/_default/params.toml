@@ -10,11 +10,14 @@ colorScheme = "blowfish"
 defaultAppearance = "dark" # valid options: light or dark
 autoSwitchAppearance = true
 
+enableA11y = true
 enableSearch = true
 enableCodeCopy = false
+replyByEmail = false # TODO: Modifier le texte ?
 
-# mainSections = ["section1", "section2"]
+# mainSections = ["posts"]
 # robots = ""
+backgroundImageWidth = 1920
 
 disableImageOptimization = false
 disableTextInHeader = false
@@ -37,14 +40,20 @@ defaultFeaturedImage = "img/tambour.jpg" # used as default for featured images i
   showScrollToTop = true
 
 [homepage]
+  # layout = "hero" # valid options: page, profile, hero, card, background, custom
   layout = "custom" # valid options: page, profile, hero, card, background, custom
-  homepageImage = "img/orchestre-lacrimosa-douchy.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
+  homepageImage = "img/orchestre-douchy-original.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
+  # homepageImage = "img/orchestre-lacrimosa-douchy.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
+  showUpcoming = true
+  showUpcomingItems = 6
+  showMoreUpcoming = true
+  concertLink = "/concerts"
   showRecent = false
-  showRecentItems = 5
+  showRecentItems = 6
   showMoreLink = true
-  showMoreLinkDest = "/posts"
+  showMoreLinkDest = "/concerts"
   cardView = true
-  # cardViewScreenWidth = true
+  cardViewScreenWidth = false
   # layoutBackgroundBlur = true # only used when layout equals background
 
 [article]
