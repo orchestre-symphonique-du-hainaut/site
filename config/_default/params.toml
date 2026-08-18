@@ -43,7 +43,6 @@ defaultFeaturedImage = "img/tambour.jpg" # used as default for featured images i
   # layout = "hero" # valid options: page, profile, hero, card, background, custom
   layout = "custom" # valid options: page, profile, hero, card, background, custom
   homepageImage = "img/orchestre-douchy-original.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
-  # homepageImage = "img/orchestre-lacrimosa-douchy.jpg" #"https://i0.wp.com/poster.4teachers.org/imgFileWizard/43050.jpg" # used in: hero, and card
   showUpcoming = true
   showUpcomingItems = 6
   showMoreUpcoming = true

@@ -30,10 +30,15 @@
             {{ with $.Params.imagePosition | default $defaultPosition }}
               {{ $style = printf "object-position: %s;" . }}
             {{ end }}
+            {{ $resizedImage := ($homepageImage.Resize "1920x") }}
             <img
               id="background-image"
               class="nozoom mt-0 mr-0 mb-0 ml-0 h-[1000px] w-full object-cover"
-              src="{{ $homepageImage.RelPermalink }}"
+              src="{{ $resizedImage.RelPermalink }}"
+              srcset="
+              {{ (($homepageImage.Resize "1366x").Crop "333x592 Center").RelPermalink }} 333w,
+              {{ ($homepageImage.Resize "1366x").RelPermalink }} 1366w,
+              {{ $resizedImage.RelPermalink }} 1920w"
               role="presentation"
               {{ if $style }}style="{{ $style | safeCSS }}"{{ end }}>
             <div
