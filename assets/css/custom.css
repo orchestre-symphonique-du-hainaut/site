@@ -1,3 +1,15 @@
-.v-break {
-    height: 65vh;
+/* Icone dans les Timeline items */
+article div:has(>span.icon) {
+  height: 3rem;
+  width: 3rem;
+  margin-left: -3.5rem;
+}
+
+@layer utilities {
+  /* Nouvelle valeur pour le gap de la page d'acceuil */
+  @media (width >= 640px) and (width < 853px) {
+    .sm\:h-36 {
+      height: calc(var(--spacing) * 36);
+    }
+  }
 }

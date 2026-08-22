@@ -1,5 +1,5 @@
 ---
-title: 'Concert Hispanosymphonique'
+title: 'Concert Hispano<wbr>symphonique'
 date: 2026-06-28T16:00:00
 showTime: false
 summary: "Maubeuge, Église Saint-Pierre-et-Saint-Paul"

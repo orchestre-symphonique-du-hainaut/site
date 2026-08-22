@@ -3,7 +3,6 @@ title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2025-09-20T20:00:00
 summary: "Orchies, Église Notre Dame de l'Assomption"
 tags: ["requiem"]
-featureimage: img/lacrimosa.jpg
 ---
 
 > {{< icon "location-dot" >}} Orchies, Église Notre Dame de l'Assomption

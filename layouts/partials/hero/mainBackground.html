@@ -16,7 +16,7 @@
 
 {{ if not (or $background $backgroundURL) }}
   {{ $images := .Resources.ByType "image" }}
-  {{ range slice "*background*" "*feature*" "*cover*" "*thumbnail*" }}
+  {{ range slice "*background*" }}
     {{ if not $background }}{{ $background = $images.GetMatch . }}{{ end }}
   {{ end }}
 {{ end }}

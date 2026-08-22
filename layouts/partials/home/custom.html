@@ -1,6 +1,6 @@
 {{ $disableImageOptimization := .Site.Params.disableImageOptimization | default false }}
 {{ $disableHeroImageFilter := .Site.Params.homepage.disableHeroImageFilter | default false }}
-<article class="prose dark:prose-invert max-w-full v-break">
+<article class="prose dark:prose-invert max-w-full">
   <div class="relative">
     <div class="absolute inset-x-0 bottom-0 h-1/2"></div>
     <div class="mx-auto max-w-7xl p-0">
@@ -108,6 +108,9 @@
         </div>
       </div>
     </div>
+    {{/* Cet div rajoute le gap entre le titre */}}
+    {{/* et les concerts à venir */}}
+    <div class="h-24 sm:h-36 md:h-56 lg:h-72"></div>
   </div>
 </article>
 <section>
