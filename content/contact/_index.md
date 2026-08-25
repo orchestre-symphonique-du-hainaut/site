@@ -14,7 +14,7 @@ __*Orchestre Symphonique du Hainaut*__
 59880 Saint-Saulve
 {{</ lead >}}
 
-{{< alert icon="phone" >}}**06 72 71 92 70**{{< /alert >}}  
+<!-- {{< alert icon="phone" >}}**06 72 71 92 70**{{< /alert >}} -->  
 {{< button href="mailto://orchestre-symphonique-du-hainaut@outlook.com">}}
 {{< icon "email" >}} orchestre-symphonique-du-hainaut@outlook.com
 {{< /button >}}
