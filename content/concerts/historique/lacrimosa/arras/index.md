@@ -3,7 +3,6 @@ title: '<i>Mozart: REQUIEM</i><br/>"Une fin éternelle"'
 date: 2026-03-08T16:00:00
 summary: 'Arras, Église Saint-Nicolas-en-Cité'
 tags: ["requiem"]
-featureimage: img/lacrimosa.jpg
 ---
 
 > {{< icon "location-dot" >}} Église Saint-Nicolas-en-Cité d'Arras
