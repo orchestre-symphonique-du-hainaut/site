@@ -13,7 +13,6 @@ Concert organisé dans le cadre des Journées du patrimoine.
 *Entrée libre*
 
 {{< figure
-    src="feature.jpg"
-    dir="corde"
+    src="feature.png"
     alt="Affiche"
 >}}
